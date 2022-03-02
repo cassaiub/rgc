@@ -1,0 +1,9 @@
+build
+dist
+/rgc/VERSION
+/rgc/__pycache__/
+/venv
+/.venv
+__pycache__/
+*.egg-info/
+*.egg
