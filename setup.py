@@ -20,8 +20,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="rgc",
     version=rgc_version,
-    author="Astronomy Research Group, IUB (ARGI)",
-    author_email="arg@iub.edu.bd",
+    author="Center for Astronomy, Space Sciences and Astrophysics(CASSA)",
+    author_email="director.cassa@iub.edu.bd",
     description="RGC: Radio Galaxy Classifier",
     long_description=long_description,
     long_description_content_type="text/markdown",
