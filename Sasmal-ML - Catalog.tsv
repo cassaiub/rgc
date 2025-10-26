@@ -1,0 +1,704 @@
+RI	SI	MI	FCG	RA	Dec	Label	Batch	d	T_isl	T_pix	Saikia	Asad	Hossain	Attention RL1	Attention RL2
+0	1	0	J0001-0826	00 01 15.11	-08 26 46.2	WAT	train batch: 8	0	3	5			SMD		
+1	2	1	J0007+0536	00 07 05.88	+05 36 02.3	WAT	train batch: 7	0	3	5			SMD		
+2	3	2	J0017-0149	00 17 32.28	-01 49 23.7	WAT	train batch: 4	0	3	5			SMD		
+3	4	3	J0020-0950	00 20 08.01	-09 50 53.3	WAT	train batch: 2	0	3	5			SMD		
+4	5	4	J0027+0224	00 27 19.11	+02 24 28.9	WAT	train batch: 7	0	3	5			SMD		
+5	7	5	J0035-0834	00 35 03.48	-08 34 39.2	WAT	train batch: 4	0	3	5			SMD		
+6	8		J0041-0651	00 41 10.52	-06 51 05.2	WAT	train batch: 3	3	3	5		noisy	compact		
+7	9	6	J0041+0028	00 41 52.16	+00 28 34.9	WAT	train batch: 4	0	3	5			SMD		
+8	10	7	J0044+1026	00 44 58.90	+10 26 44.2	WAT	train batch: 4	0	3	5			SMD		
+9	11	8	J0045-0701	00 45 47.96	-07 01 40.7	WAT	train batch: 3	0	3	5			SMD		
+10	12	9	J0046-0805	00 46 36.48	-08 05 45.6	WAT	test batch	2	1.6	5	missing some extended emission	sig	SMD	g	g
+11	13		J0057-0100	00 57 29.38	-01 00 59.1	WAT		3	2.8	4.8	bad quality, should be removed	sig	discard		
+12	14	10	J0057-0336	00 57 33.71	-03 36 09.6	WAT	test batch	0	3	5			SMD	s	g
+13	16	11	J0120+0021	01 20 58.94	+00 21 39.2	WAT	train batch: 7	0	3	5			SMD		
+14	17	12	J0158-0215	01 58 30.16	-02 15 30.4	WAT	train batch: 4	1	3	5		discon	SMD		
+15	18		J0159-0119	01 59 55.52	-01 19 59.9	WAT	train batch: 3	0	3	5		onetail	compact		
+16	19	13	J0212-0450	02 12 16.55	-04 50 38.8	WAT	train batch: 3	0	3	5			SMD		
+17	20	14	J0224+0659	02 24 28.64	+06 59 23.2	WAT	train batch: 5	0	3	5			SMD		
+18	21	15	J0229+0429	02 29 02.09	+04 29 03.3	WAT	test batch	0	3	5			SMD	s	g
+19	22	16	J0233-0321	02 33 17.70	-03 21 00.6	WAT	train batch: 5	0	3	5			SMD		
+20	23	17	J0242-0544	02 42 04.91	-05 44 17.0	WAT	train batch: 0	0	3	5			SMD		
+21	24	18	J0245-0648	02 45 57.86	-06 48 55.91	WAT	train batch: 8	0	3	5			SMD		
+22	25	19	J0248-0113	02 48 08.57	-01 13 44.2	WAT	train batch: 5	0	3	5			SMD		
+23	26	20	J0308-0607	03 08 50.29	-06 07 37.2	WAT	train batch: 0	0	3	5			SMD		
+24	27	21	J0312-0633	03 12 55.23	-06 33 43.1	WAT	test batch	0	3	5			SMD	g	g
+25	28	22	J0313-0631	03 13 29.05	-06 31 19.5	WAT	train batch: 2	0	3	5			SMD		
+26	30	23	J0320+0059	03 20 29.23	+00 59 44.9	WAT	train batch: 7	0	3	5			SMD		
+27	31	24	J0331-0730	03 31 31.48	-07 30 01.8	WAT	train batch: 7	0	3	5			SMD		
+28	32	25	J0332+0024	03 32 36.25	+00 24 57.2	WAT	train batch: 6	0	3	5			SMD		
+29	33	26	J0334+0102	03 34 00.64	+01 02 15.9	WAT	train batch: 1	2	2.6	4	missing some extended emission	bad	SMD		
+30	34	27	J0335-0719	03 35 48.23	-07 19 12.5	WAT	train batch: 7	0	3	5			SMD		
+31	35	28	J0703+6014	07 03 11.18	+60 14 23.1	WAT	train batch: 2	0	3	5			SMD		
+32	36		J0704+6228	07 04 22.20	+62 28 13.2	WAT	test batch	0	3	5		small	compact		
+33	37	29	J0715+4829	07 15 19.07	+48 29 32.0	WAT	test batch	0	3	5			SMD	g	g
+34	38	30	J0717+4405	07 17 26.66	+44 05 02.3	WAT	test batch	0	3	5			SMD	g	g
+35	39	31	J0719+5519	07 19 36.64	+55 19 42.8	WAT	train batch: 1	0	3	5			SMD		
+36	40		J0723+3323	07 23 59.55	+33 23 20.2	WAT		0	3	5		bad	discard		
+37	41		J0724+3639	07 24 19.13	+36 39 56.7	WAT	train batch: 6	0	3	5		small	compact		
+38	42	32	J0726+3102	07 26 49.96	+31 02 04.0	WAT	train batch: 2	0	3	5			SMD		
+39	43	33	J0733+4213	07 33 12.73	+42 13 00.9	WAT	train batch: 1	0	3	5			SMD		
+40	44	34	J0734+2933	07 34 06.21	+29 33 16.5	WAT	train batch: 2	0	3	5			SMD		
+41	45	35	J0736+1857	07 36 17.12	+18 57 10.2	WAT	train batch: 7	0	3	5			SMD		
+42	46	36	J0741+2620	07 41 01.20	+26 20 36.6	WAT	train batch: 6	0	3	5			SMD		
+43	48	37	J0744+4353	07 44 42.18	+43 53 07.8	WAT	test batch	0	3	5			SMD	g	g
+44	47	38	J0744+1658	07 44 59.31	+16 58 59.7	WAT	test batch	0	3	5			SMD	g	g
+45	50	39	J0748+4849	07 48 30.52	+48 49 55.1	WAT	train batch: 6	0	3	5			SMD		
+46	49	40	J0748+2324	07 48 45.09	+23 24 45.7	WAT	train batch: 8	0	3	5			SMD		
+47	53	41	J0750+5856	07 50 05.16	+58 56 59.4	WAT	train batch: 0	0	3	5			SMD		
+48	52	42	J0750+5841	07 50 18.30	+58 41 36.3	WAT	test batch	0	3	5			SMD	g	g
+49	51	43	J0750+1741	07 50 49.80	+17 41 41.9	WAT	test batch	0	3	5			SMD	s	g
+50	54	44	J0752+3750	07 52 28.25	+37 50 56.7	WAT	train batch: 6	0	3	5			SMD		
+51	55	45	J0755+1909	07 55 11.29	+19 09 36.9	WAT	train batch: 5	0	3	5			SMD		
+52	56	46	J0757+5824	07 57 38.30	+58 24 37.5	WAT	train batch: 6	0	3	5			SMD		
+53	57		J0806+2531	08 06 11.29	+25 31 37.8	WAT		0	3	5	is this wat or nat?	nat confusion	confusing		
+54	58	47	J0811+1029	08 11 40.88	+10 29 27.3	WAT	test batch	0	3	5			SMD	c	g
+55	59	48	J0813+4347	08 13 00.11	+43 47 48.6	WAT	train batch: 5	0	3	5			SMD		
+56	60	49	J0814+4300	08 14 03.34	+43 00 12.9	WAT	train batch: 0	0	3	5			SMD		
+57	61	50	J0815+3840	08 15 12.34	+38 40 45.4	WAT	train batch: 5	0	3	5			SMD		
+58	62	51	J0816+5716	08 16 59.33	+57 16 28.8	WAT	train batch: 8	0	3	5			SMD		
+59	64	52	J0818+4956	08 18 00.73	+49 56 11.8	WAT	train batch: 6	0	3	5			SMD		
+60	63		J0818+3858	08 18 22.16	+38 58 40.4	WAT		0	3	5	looks like a blob, original image also not clear	bad	discard		
+61	65	53	J0819+1849	08 19 01.55	+18 49 18.2	WAT	train batch: 7	0	3	5			SMD		
+62	66	54	J0819+3332	08 19 28.70	+33 32 47.4	WAT	train batch: 2	0	3	5			SMD		
+63	67	55	J0820+3034	08 20 32.51	+30 34 49.8	WAT	train batch: 4	0	3	5			SMD		
+64	68	56	J0822+1435	08 22 58.44	+14 35 47.5	WAT	train batch: 7	0	3	5			SMD		
+65	69	57	J0826+0359	08 26 08.51	+03 59 03.6	WAT	train batch: 3	0	3	5			SMD		
+66	70	58	J0830+0836	08 30 16.63	+08 36 53.4	WAT	train batch: 5	0	3	5			SMD		
+67	71	59	J0831+3914	08 31 08.01	+39 14 28.1	WAT	train batch: 5	0	3	5			SMD		
+68	73	60	J0833+4940	08 33 10.17	+49 40 05.3	WAT	train batch: 6	0	3	5			SMD		
+69	72	61	J0833+1027	08 33 45.45	+10 27 53.1	WAT	train batch: 8	0	3	5			SMD		
+70	74	62	J0834+0019	08 34 09.58	+00 19 48.6	WAT	train batch: 0	0	3	5			SMD		
+71	75		J0837+6020	08 37 34.89	+60 20 46.6	WAT	train batch: 8	2	2.4	3.8	missing some extended emission	bad; sig	compact		
+72	76	63	J0839+0609	08 39 13.94	+06 09 44.9	WAT	train batch: 1	0	3	5			SMD		
+73	77		J0840+3826	08 40 10.61	+38 26 27.5	WAT		0	3	5		bad	discard		
+74	80	64	J0841+5258	08 41 02.16	+52 58 54.1	WAT	train batch: 3	0	3	5			SMD		
+75	78	65	J0841-0202	08 41 32.00	-02 03 19.7	WAT	train batch: 0	1	3	4.4	missing some extended emission, but clear enough		SMD		
+76	79	66	J0841+1235	08 41 58.63	+12 35 12.4	WAT	train batch: 0	0	3	5			SMD		
+77	82	67	J0844+2606	08 44 33.40	+26 06 15.1	WAT	train batch: 7	0	3	5			SMD		
+78	81	68	J0844+2129	08 44 45.33	+21 29 30.7	WAT	train batch: 1	0	3	5			SMD		
+79	83	69	J0846-0131	08 46 55.05	-01 31 42.7	WAT	train batch: 8	0	3	5			SMD		
+80	84	70	J0847+3147	08 47 58.72	+31 47 54.3	WAT	train batch: 5	0	3	5			SMD		
+81	85	71	J0851+6227	08 51 59.09	+62 27 57.5	WAT	train batch: 6	0	3	5			SMD		
+82	86	72	J0852+5639	08 52 15.76	+56 39 15.2	WAT	train batch: 4	0	3	5			SMD		
+83	87	73	J0855+3454	08 55 34.71	+34 54 30.9	WAT	train batch: 8	0	3	5			SMD		
+84	88	74	J0856+2152	08 56 16.87	+21 52 52.8	WAT	train batch: 3	0	3	5			SMD		
+85	89	75	J0856+4951	08 56 18.71	+49 51 06.4	WAT	train batch: 6	0	3	5			SMD		
+86	91	76	J0858+5740	08 58 03.85	+57 40 13.8	WAT	train batch: 8	0	3	5			SMD		
+87	90	77	J0858+1710	08 58 45.11	+17 10 03.1	WAT	train batch: 8	0	3	5			SMD		
+88	92	78	J0859-0251	08 59 54.39	-02 51 40.0	WAT	train batch: 3	0	3	5			SMD		
+89	93	79	J0900+1614	09 00 31.97	+16 14 25.6	WAT	train batch: 1	0	3	5			SMD		
+90	94	80	J0900+5056	09 00 52.57	+50 56 22.6	WAT	train batch: 8	0	3	5			SMD		
+91	95	81	J0902+1819	09 02 16.30	+18 19 04.3	WAT	test batch	0	3	5			SMD	g	g
+92	96	82	J0903+3230	09 03 00.64	+32 30 40.7	WAT	train batch: 5	0	3	5			SMD		
+93	97	83	J0904+5834	09 04 57.31	+58 34 49.9	WAT	test batch	0	3	5			SMD	s	g
+94	98	84	J0907+0234	09 07 04.23	+02 34 38.1	WAT	train batch: 6	0	3	5			SMD		
+95	99		J0908+3437	09 08 47.17	+34 37 39.8	WAT	train batch: 1	0	3	5		small	compact		
+96	100	85	J0910+3841	09 10 42.23	+38 41 25.6	WAT	train batch: 6	0	3	5			SMD		
+97	102	86	J0912+0944	09 12 04.76	+09 44 07.4	WAT	train batch: 8	0	3	5			SMD		
+98	101	87	J0912+0534	09 12 35.82	+05 33 55.2	WAT	train batch: 3	0	3	5			SMD		
+99	103	88	J0913+5208	09 13 15.78	+52 08 55.0	WAT	train batch: 3	0	3	5			SMD		
+100	105	89	J0916+5844	09 16 08.58	+58 44 38.1	WAT	train batch: 3	0	3	5			SMD		
+101	104	90	J0916+0808	09 16 47.53	+08 08 47.9	WAT	train batch: 2	0	3	5			SMD		
+102	107		J0917+4322	09 17 12.29	+43 22 48.9	WAT	train batch: 2	0	3	5		bad	compact		
+103	106	91	J0917+0350	09 17 23.81	+03 50 04.4	WAT	train batch: 0	0	3	5			SMD		
+104	108	92	J0923+0759	09 24 01.47	+07 58 51.1	WAT	train batch: 8	0	3	5			SMD		
+105	110	93	J0924+0627	09 24 04.91	+06 27 15.6	WAT	train batch: 6	0	3	5			SMD		
+106	111	94	J0924+2326	09 24 20.75	+23 26 33.9	WAT	train batch: 8	0	3	5			SMD		
+107	109	95	J0924-0524	09 24 27.17	-05 24 34.5	WAT	train batch: 0	0	3	5			SMD		
+108	112	96	J0925-0557	09 25 31.68	-05 57 38.5	WAT	train batch: 3	0	3	5			SMD		
+109	113	97	J0926+0309	09 26 44.19	+03 09 19.7	WAT	train batch: 6	0	3	5			SMD		
+110	115	98	J0928-0507	09 28 51.88	-05 07 17.5	WAT	train batch: 0	0	3	5			SMD		
+111	116	99	J0933+0600	09 33 24.84	+06 00 40.1	WAT	train batch: 4	0	3	5			SMD		
+112	117	100	J0934+1829	09 34 34.29	+18 29 30.5	WAT	train batch: 0	0	3	5			SMD		
+113	119	101	J0935+1124	09 35 22.76	+11 24 57.5	WAT	train batch: 1	0	3	5			SMD		
+114	118	102	J0935-0325	09 35 23.36	-03 25 47.0	WAT	train batch: 3	0	3	5			SMD		
+115	120	103	J0936-0627	09 36 02.19	-06 27 59.1	WAT	train batch: 5	0	3	5	missing some extended emission		SMD		
+116	122	104	J0937+5800	09 37 28.52	+58 00 13.4	WAT	train batch: 1	0	3	5			SMD		
+117	121	105	J0937+0245	09 37 43.70	+02 45 40.2	WAT	train batch: 8	1	2	4.4		sig	SMD		
+118	124	106	J0940+4826	09 40 06.91	+48 26 49.2	WAT	train batch: 0	0	3	5			SMD		
+119	123	107	J0940+1510	09 40 13.55	+15 10 53.2	WAT	train batch: 0	0	3	5			SMD		
+120	125	108	J0941+0814	09 41 42.11	+08 14 00.5	WAT	train batch: 5	0	3	5			SMD		
+121	126	109	J0941+5751	09 41 46.01	+57 51 24.2	WAT	train batch: 2	0	3	5			SMD		
+122	127	110	J0943+0611	09 43 09.45	+06 11 31.8	WAT	test batch	0	3	5			SMD	s	g
+123	128	111	J0944-0234	09 44 33.77	-02 34 16.8	WAT	train batch: 0	0	3	5			SMD		
+124	129	112	J0946-0705	09 46 29.26	-07 05 31.3	WAT	train batch: 2	0	3	5			SMD		
+125	130	113	J0946+3604	09 46 44.44	+36 04 54.4	WAT	train batch: 6	0	3	5			SMD		
+126	131	114	J0947+0044	09 47 07.56	+00 44 16.6	WAT	train batch: 3	0	3	5			SMD		
+127	132	115	J0947+5251	09 47 15.39	+52 50 57.9	WAT	train batch: 7	0	3	5			SMD		
+128	133		J0950-0437	09 50 18.42	-04 37 40.6	WAT	train batch: 4	0	3	5		small	compact		
+129	134	116	J0953+2924	09 53 27.88	+29 24 19.8	WAT	train batch: 3	0	3	5			SMD		
+130	135	117	J0954+4304	09 54 25.87	+43 04 16.1	WAT	train batch: 7	0	3	5			SMD		
+131	136	118	J0954+6241	09 54 55.45	+62 41 30.2	WAT	train batch: 5	0	3	5			SMD		
+132	137	119	J0955-0247	09 55 13.50	-02 47 15.6	WAT	train batch: 3	0	3	5			SMD		
+133	138	120	J0955+1102	09 55 51.61	+11 02 33.4	WAT	train batch: 1	0	3	5			SMD		
+134	139	121	J0957-0645	09 57 20.04	-06 45 07.9	WAT	train batch: 5	1	2.6	4.6	missing some extended emission	bad; noisy	SMD		
+135	140	122	J0959-0454	09 59 03.53	-04 54 09.5	WAT	train batch: 4	0	3	5			SMD		
+136	142	123	J0959+5751	09 59 37.65	+57 51 57.2	WAT	train batch: 7	0	3	5			SMD		
+137	141	124	J0959+5641	09 59 56.85	+56 41 14.6	WAT	train batch: 7	0	3	5			SMD		
+138	143	125	J1001+4902	10 01 53.57	+49 20 33.2	WAT	train batch: 7	0	3	5			SMD		
+139	144	126	J1002+4756	10 02 44.00	+47 56 20.2	WAT	train batch: 5	0	3	5			SMD		
+140	145	127	J1003+3730	10 03 46.59	+37 30 56.5	WAT	train batch: 4	0	3	5			SMD		
+141	146	128	J1005+6022	10 05 01.01	+60 22 03.8	WAT	train batch: 5	0	3	5			SMD		
+142	147		J1007+2904	10 07 15.78	+29 40 49.1	WAT	train batch: 4	0	3	5		small	compact		
+143	148	129	J1008+0142	10 08 44.59	+01 42 11.4	WAT	train batch: 3	0	3	5			SMD		
+144	149	130	J1009+0337	10 09 43.50	+03 37 22.7	WAT	train batch: 3	0	3	5			SMD		
+145	150	131	J1010-0601	10 10 57.71	-06 01 25.2	WAT	train batch: 4	0	3	5			SMD		
+146	151	132	J1018+0348	10 18 52.13	+03 48 56.1	WAT	train batch: 4	1	2.2	4	missing some extended emission	sig	SMD		
+147	152	133	J1019+0019	10 19 39.05	+00 19 46.1	WAT	train batch: 4	0	3	5			SMD		
+148	153	134	J1020+4828	10 20 56.98	+48 28 30.6	WAT	train batch: 7	0	3	5			SMD		
+149	154	135	J1021+0024	10 21 41.19	+00 24 47.6	WAT	train batch: 0	0	3	5			SMD		
+150	155	136	J1026+3259	10 26 22.33	+32 59 11.6	WAT	train batch: 1	0	3	5			SMD		
+151	156	137	J1031-0640	10 31 30.66	-06 40 28.1	WAT	test batch	0	3	5			SMD	s	g
+152	159	138	J1032+5505	10 32 01.09	+55 05 54.4	WAT	train batch: 1	0	3	5			SMD		
+153	157	139	J1032+0144	10 32 40.96	+01 44 30.3	WAT	train batch: 5	0	3	5			SMD		
+154	158	140	J1032+3045	10 32 58.75	+30 45 39.4	WAT	train batch: 4	0	3	5			SMD		
+155	161	141	J1033+1923	10 33 08.11	+19 23 55.6	WAT	train batch: 1	0	3	5			SMD		
+156	160	142	J1033+0755	10 33 39.59	+07 55 30.2	WAT	train batch: 1	0	3	5			SMD		
+157	162	143	J1035+3406	10 35 11.38	+34 06 24.6	WAT	train batch: 6	0	3	5			SMD		
+158	163	144	J1038+4148	10 38 27.38	+41 48 43.5	WAT	train batch: 8	0	3	5			SMD		
+159	165		J1039+3338	10 39 16.34	+33 38 29.4	WAT	train batch: 5	1	2.8	3.8	missed all the emission :D faulty image	bad	compact		
+160	164	145	J1039-0645	10 39 47.12	-06 45 24.9	WAT	train batch: 8	0	3	5			SMD		
+161	166		J1045+5250	10 45 44.05	+52 50 17.1	WAT		0	3	5		bad, crop, sig	discard		
+162	168	146	J1046+5434	10 46 41.67	+54 34 25.2	WAT	train batch: 1	0	3	5			SMD		
+163	167	147	J1046+0538	10 46 43.42	+05 38 38.8	WAT	train batch: 3	0	3	5			SMD		
+164	170	148	J1050+3040	10 50 10.5	+30 40 00.	WAT	train batch: 7	0	3	5			SMD		
+165	171	149	J1051+0051	10 51 35.32	+00 51 33.8	WAT	train batch: 5	0	3	5			SMD		
+166	172	150	J1054+5425	10 54 30.26	+54 25 05.8	WAT	train batch: 3	0	3	5			SMD		
+167	173	151	J1103+0356	11 03 32.44	+03 56 23.8	WAT	train batch: 0	0	3	5			SMD		
+168	174	152	J1105+5943	11 05 24.26	+59 43 41.9	WAT	test batch	0	3	5			SMD	s	g
+169	175	153	J1108+2610	11 08 12.46	+26 10 33.8	WAT	train batch: 5	0	3	5			SMD		
+170	176	154	J1112+0346	11 12 44.34	+03 46 32.5	WAT	train batch: 1	0	3	5			SMD		
+171	177	155	J1114+3625	11 14 01.78	+34 25 03.2	WAT	test batch	0	3	5			SMD	g	g
+172	178	156	J1115+0613	11 15 10.07	+06 13 03.9	WAT	train batch: 2	0	3	5			SMD		
+173	179	157	J1116-0435	11 16 06.35	-04 35 39.4	WAT	train batch: 0	0	3	5			SMD		
+174	180	158	J1116+4516	11 16 54.16	+45 16 17.6	WAT	train batch: 8	0	3	5			SMD		
+175	181	159	J1118-0556	11 18 00.7	-05 56 25.5	WAT	train batch: 2	0	3	5			SMD		
+176	182	160	J1118+3115	11 18 33.52	+31 15 16.3	WAT	train batch: 4	0	3	5			SMD		
+177	183	161	J1123-0700	11 23 51.34	-07 00 00.3	WAT	train batch: 1	0	3	5			SMD		
+178	184	162	J1125+0314	11 25 08.80	+03 14 52.2	WAT	train batch: 8	0	3	5			SMD		
+179	185	163	J1125+3618	11 25 23.73	+36 18 24.3	WAT	train batch: 8	0	3	5			SMD		
+180	186	164	J1125+5827	11 25 39.13	+58 27 34.2	WAT	train batch: 8	0	3	5			SMD		
+181	187	165	J1126+2638	11 26 30.83	+26 38 05.5	WAT	train batch: 1	0	3	5			SMD		
+182	188	166	J1126+5925	11 26 46.63	+59 25 49.9	WAT	train batch: 2	0	3	5			SMD		
+183	189	167	J1129+0550	11 29 02.74	+05 50 49.9	WAT	train batch: 2	0	3	5			SMD		
+184	190	168	J1130+2524	11 30 48.83	+25 24 35.6	WAT	test batch	0	3	5			SMD	c	c
+185	191	169	J1130+5457	11 30 50.30	+54 57 44.0	WAT	train batch: 5	0	3	5			SMD		
+186	192	170	J1131+0435	11 31 40.91	+04 35 20.8	WAT	train batch: 6	0	3	5			SMD		
+187	193	171	J1131-0600	11 31 56.47	-06 00 12.1	WAT	train batch: 5	0	3	5			SMD		
+188	194	172	J1138+2012	11 38 00.00	+20 12 22.6	WAT	train batch: 5	0	3	5			SMD		
+189	195	173	J1138+2039	11 38 50.25	+20 39 18.4	WAT	train batch: 2	0	3	5			SMD		
+190	197		J1143+1525	11 43 16.54	+15 25 13.2	WAT	train batch: 8	0	3	5		small	compact		
+191	196	174	J1143+0729	11 43 39.85	+07 29 59.6	WAT	train batch: 2	0	3	5			SMD		
+192	199	175	J1144+5833	11 44 48.08	+58 33 50.4	WAT	train batch: 3	0	3	5			SMD		
+193	198	176	J1144-0114	11 44 57.93	-01 14 34.4	WAT	train batch: 1	0	3	5			SMD		
+194	200	177	J1145-0757	11 45 53.08	-07 57 53.6	WAT	test batch	0	3	5		bad	SMD	g	g
+195	201	178	J1146-0504	11 46 21.91	-05 04 48.2	WAT	train batch: 8	0	3	5			SMD		
+196	202	179	J1147+5421	11 47 28.97	+54 21 37.3	WAT	train batch: 7	0	3	5			SMD		
+197	203	180	J1148+2332	11 48 33.14	+23 32 25.9	WAT	test batch	0	3	5			SMD	s2	g
+198	204	181	J1149-0144	11 49 28.17	-01 44 41.6	WAT	train batch: 6	0	3	5			SMD		
+199	205		J1149+3136	11 49 36.32	+31 36 32.5	WAT	train batch: 0	0	3	5		bad	compact		
+200	206	182	J1150+5728	11 50 56.08	+57 28 06.5	WAT	train batch: 4	0	2	4.8	missing some extended faint emission, but no problem	sig	SMD		
+201	207	183	J1152+3405	11 52 43.66	+34 05 33.9	WAT	train batch: 2	0	3	5			SMD		
+202	208	184	J1154+3635	11 54 34.82	+36 35 39.9	WAT	train batch: 7	0	3	5			SMD		
+203	209	185	J1155-0125	11 55 00.48	-01 25 52.0	WAT	train batch: 5	0	3	5			SMD		
+204	210	186	J1158+0037	11 58 21.34	+00 37 08.1	WAT	train batch: 1	1	2	4	missing some extended faint emission, but no problem	sig	SMD		
+205	211	187	J1158+0946	11 58 54.01	+09 46 31.9	WAT	train batch: 7	0	3	5			SMD		
+206	212	188	J1159-0127	11 59 40.93	-01 27 15.1	WAT	train batch: 3	0	3	5			SMD		
+207	213	189	J1201+3257	12 01 51.87	+32 57 01.3	WAT	test batch	0	3	5			SMD	g	g
+208	214	190	J1204+4834	12 04 45.05	+48 34 59.9	WAT	train batch: 1	0	3	5			SMD		
+209	215	191	J1205+3204	12 05 14.01	+32 04 41.4	WAT	train batch: 3	0	3	5			SMD		
+210	217	192	J1209+3708	12 09 24.08	+37 08 49.5	WAT	train batch: 5	0	3	5			SMD		
+211	216	193	J1209+2420	12 09 38.29	+24 20 38.4	WAT	train batch: 7	0	3	5			SMD		
+212	218	194	J1210+4812	12 10 28.26	+48 12 57.5	WAT	train batch: 0	0	3	5			SMD		
+213	219	195	J1211+0607	12 11 10.99	+06 07 44.2	WAT	train batch: 6	0	2	4		sig	SMD		
+214	221	196	J1213+5612	12 13 18.95	+56 12 54.1	WAT	train batch: 0	0	3	5			SMD		
+215	220	197	J1213-0327	12 13 45.43	-03 27 09.5	WAT	test batch	0	3	5			SMD	s	g
+216	222	198	J1216+0342	12 16 40.13	+03 42 31.5	WAT	train batch: 3	0	3	5			SMD		
+217	223	199	J1219+0014	12 19 05.57	+00 14 16.4	WAT	test batch	1	2.6	4	missing some extended faint emission	sig	SMD	g	g
+218	224	200	J1220+4759	12 20 13.15	+47 59 46.8	WAT	train batch: 0	0	3	5			SMD		
+219	226	201	J1221-0108	12 21 59.66	-01 08 00.8	WAT	train batch: 4	0	3	5			SMD		
+220	225	202	J1221-0113	12 21 59.88	-01 13 59.3	WAT	train batch: 2	0	3	5			SMD		
+221	227	203	J1230+1144	12 30 11.43	+11 44 45.3	WAT	train batch: 4	0	3	5			SMD		
+222	228	204	J1232+3130	12 32 11.44	+31 30 58.1	WAT	train batch: 7	0	3	5			SMD		
+223	229	205	J1233+1928	12 33 16.72	+19 28 50.4	WAT	train batch: 5	0	3	5			SMD		
+224	230	206	J1233+3559	12 33 24.51	+35 59 15.5	WAT	train batch: 6	1	1.4	4	missing some extended faint emission	sig	SMD		
+225	231	207	J1235+5625	12 35 07.09	+56 25 05.6	WAT	train batch: 4	0	3	5			SMD		
+226	232	208	J1237+2013	12 37 20.33	+20 13 52.6	WAT	train batch: 1	0	3	5			SMD		
+227	233	209	J1241+2734	12 41 08.79	+27 34 47.1	WAT	train batch: 2	0	3	5			SMD		
+228	234	210	J1242+4041	12 42 47.76	+40 41 44.3	WAT	train batch: 5	0	3	5			SMD		
+229	235	211	J1246+5453	12 46 47.53	+54 53 15.2	WAT	train batch: 5	0	3	5			SMD		
+230	236	212	J1247+4042	12 47 01.00	+40 42 02.3	WAT	test batch	0	3	5			SMD	s	g
+231	238	213	J1249+3038	12 49 42.23	+30 38 37.9	WAT	train batch: 4	0	3	5			SMD		
+232	237	214	J1249+0143	12 49 48.06	+01 43 19.5	WAT	train batch: 0	0	3	5			SMD		
+233	239	215	J1250-0132	12 50 03.80	-01 32 25.0	WAT	train batch: 6	0	3	5			SMD		
+234	240	216	J1250+0839	12 50 10.59	+08 39 52.7	WAT	test batch	0	3	5			SMD	s	g
+235	241	217	J1250+1133	12 50 13.31	+11 33 08.0	WAT	train batch: 1	0	3	5			SMD		
+236	242	218	J1251-0123	12 51 18.15	-01 23 12.5	WAT	train batch: 8	0	3	5			SMD		
+237	243	219	J1253+0604	12 53 26.70	+06 04 39.7	WAT	train batch: 1	0	3	5			SMD		
+238	244	220	J1254+6134	12 54 31.99	+61 34  5.6	WAT	train batch: 2	0	3	5			SMD		
+239	245		J1255+0152	12 55 17.00	+01 52 59.5	WAT	train batch: 5	1	1.8	5	missing some extended faint emission	bad	compact		
+240	246	221	J1256+0125	12 56 22.78	+01 25 16.0	WAT	train batch: 2	0	3	5			SMD		
+241	247	222	J1259+4617	12 59 41.85	+46 17 39.9	WAT	train batch: 5	1	2	4.8	missing some extended faint emission	sig	SMD		
+242	248	223	J1300+2916	13 00 58.31	+29 16 34.2	WAT	train batch: 5	0	3	5			SMD		
+243	249	224	J1301-0649	13 01 35.45	-06 49 58.1	WAT	train batch: 1	0	3	5			SMD		
+244	250	225	J1304+1855	13 04 09.29	+18 55 48.7	WAT	train batch: 4	0	3	5			SMD		
+245	252	226	J1306+3338	13 06 07.11	+33 38 13.5	WAT	train batch: 1	0	3	5			SMD		
+246	251	227	J1306-0539	13 06 30.4	-05 39 26.2	WAT	train batch: 3	0	3	5			SMD		
+247	253	228	J1307+5651	13 07 43.70	+56 51 03.3	WAT	train batch: 2	0	3	5			SMD		
+248	254		J1308+0829	13 08 36.40	+08 29 00.7	WAT	train batch: 2	1	2.4	4	missing some extended faint emission, but no problem		compact		
+249	255	229	J1315+0612	13 15 17.25	+06 12 57.3	WAT	train batch: 5	0	3	5			SMD		
+250	256	230	J1319+5443	13 19 52.38	+54 43 08.6	WAT	train batch: 6	0	3	5			SMD		
+251	257	231	J1320-0341	13 20 31.33	-03 41 05.6	WAT	train batch: 0	0	3	5			SMD		
+252	258		J1321-0637	13 21 40.56	-06 37 11.5	WAT		0	3	5		bad	discard		
+253	259	232	J1325+3419	13 25 23.51	+34 19 24.5	WAT	train batch: 4	0	3	5			SMD		
+254	260	233	J1327+0007	13 27 57.47	+00 07 47.4	WAT	train batch: 2	0	3	5			SMD		
+255	261	234	J1329-0511	13 29 23.93	-05 11 15.2	WAT	train batch: 1	0	3	5			SMD		
+256	263	235	J1333+0944	13 33 25.85	+09 44 31.9	WAT	train batch: 6	0	3	5			SMD		
+257	264	236	J1333+5427	13 33 35.23	+54 27 43.5	WAT	train batch: 6	0	3	5			SMD		
+258	262	237	J1333-0657	13 33 38.09	-06 57 56.4	WAT	train batch: 0	0	3	5			SMD		
+259	265	238	J1336+0047	13 36 05.49	+00 47 26.6	WAT	train batch: 7	0	3	5			SMD		
+260	266		J1337-0803	13 37 32.72	-08 03 36.8	WAT	test batch	0	3	5		double	compact		
+261	267	239	J1339-0726	13 39 02.73	-07 26 43.4	WAT	train batch: 1	0	3	5			SMD		
+262	268	240	J1340+5439	13 40 48.19	+54 39 49.4	WAT	train batch: 7	0	3	5			SMD		
+263	269	241	J1341-0116	13 41 21.03	-01 16 14.3	WAT	train batch: 3	2	2.2	5		sig	SMD		
+264	274	242	J1345+6110	13 45 03.06	+61 10 31.6	WAT	test batch	0	3	5			SMD	g	g
+265	271	243	J1345+0855	13 45 04.67	+08 55 07.2	WAT	test batch	1	1.8	3.8		sig	SMD	s	g
+266	270	244	J1345-0451	13 45 22.29	-04 51 49.8	WAT	train batch: 3	0	3	5			SMD		
+267	273	245	J1345+5332	13 45 46.01	+53 32 48.9	WAT	train batch: 0	0	3	5			SMD		
+268	272	246	J1345+3655	13 45 54.08	+36 55 03.1	WAT	train batch: 2	0	3	5			SMD		
+269	275	247	J1351-0548	13 51 20.54	-05 48 50.4	WAT	train batch: 2	0	3	5			SMD		
+270	276	248	J1351+0712	13 51 44.72	+07 12 17.0	WAT	test batch	0	3	5			SMD	s	g
+271	277	249	J1353-0732	13 53 30.31	-07 32 16.7	WAT	train batch: 1	2	1.4	4		sig	SMD		
+272	278	250	J1354+0528	13 54 42.27	+05 28 56.1	WAT	train batch: 7	0	3	5			SMD		
+273	279		J1355+1758	13 55 47.13	+17 58 45.0	WAT	test batch	0	3	5		small	compact		
+274	280	251	J1359+2808	13 59 05.03	+28 08 09.9	WAT	train batch: 7	0	3	5			SMD		
+275	283	252	J1401+3256	14 01 08.86	+32 56 00.5	WAT	train batch: 4	0	3	5			SMD		
+276	284	253	J1401+5654	14 01 09.98	+56 54 20.6	WAT	test batch	0	3	5			SMD	s	g
+277	281	254	J1401+0740	14 01 23.41	+07 40 40.1	WAT	train batch: 5	0	3	5			SMD		
+278	282	255	J1401+2833	14 01 48.60	+28 33 17.9	WAT	train batch: 6	0	3	5			SMD		
+279	285	256	J1406+0211	14 06 05.67	+02 11 53.9	WAT	train batch: 7	0	3	5			SMD		
+280	287	257	J1408+4540	14 08 06.63	+45 40 54.6	WAT	train batch: 2	0	3	5			SMD		
+281	286	258	J1408+0511	14 08 53.71	+05 11 24.6	WAT	train batch: 8	1	1.6	4.8	missing some extended faint emission	spurious; sig	SMD		
+282	289	259	J1410+5846	14 10 54.06	+58 46 55.4	WAT	train batch: 3	0	3	5			SMD		
+283	288	260	J1410-0636	14 10 55.79	-06 36 39.5	WAT	train batch: 2	0	3	5			SMD		
+284	292	261	J1411+4535	14 11 10.93	+45 35 18.1	WAT	train batch: 1	0	3	5			SMD		
+285	291	262	J1411+1048	14 11 29.33	+10 48 59.1	WAT	train batch: 6	0	3	5			SMD		
+286	290	263	J1411-0731	14 11 38.33	-07 31 43.6	WAT	train batch: 4	0	3	5			SMD		
+287	295	264	J1412+0257	14 12 09.48	+02 57 51.8	WAT	train batch: 6	0	3	5			SMD		
+288	294	265	J1412+0153	14 12 51.75	+01 53 51.4	WAT	train batch: 0	0	3	5			SMD		
+289	296	266	J1412+2157	14 12 53.65	+21 57 43.9	WAT	train batch: 3	0	3	5			SMD		
+290	297	267	J1415+2326	14 15 38.85	+23 26 50.7	WAT	train batch: 0	0	3	5			SMD		
+291	298	268	J1416+2147	14 16 13.79	+21 47 42.8	WAT	test batch	1	2	5		sig	SMD	s3	g
+292	299	269	J1417+0114	14 17 52.89	+01 14 42.7	WAT	train batch: 5	1	2	5	missing some extended faint emission	sig	SMD		
+293	300	270	J1419+4657	14 19 40.16	+46 57 29.9	WAT	train batch: 6	0	3	5			SMD		
+294	301	271	J1420-0622	14 20 31.37	-06 22 43.4	WAT	train batch: 4	0	3	5			SMD		
+295	302	272	J1422+0825	14 22 58.90	+08 25 18.8	WAT	train batch: 7	0	3	5			SMD		
+296	303	273	J1424+0025	14 24 20.20	+00 25 34.0	WAT	train batch: 8	0	3	5			SMD		
+297	304	274	J1424+0403	14 24 46.46	+04 03 45.6	WAT	train batch: 6	0	3	5			SMD		
+298	305	275	J1425+5545	14 25 47.10	+55 45 26.1	WAT	train batch: 8	0	3	5			SMD		
+299	306	276	J1426+4102	14 26 39.46	+41 02 48.9	WAT	train batch: 0	0	3	5			SMD		
+300	307	277	J1429+2336	14 29 19.16	+23 36 16.7	WAT	train batch: 1	0	3	5			SMD		
+301	308	278	J1433+1913	14 33 20.47	+19 13 29.0	WAT	train batch: 4	0	3	5			SMD		
+302	309	279	J1435+5507	14 35 28.46	+55 07 52.1	WAT	train batch: 7	0	3	5			SMD		
+303	310		J1437+1950	14 37 37.96	+19 50 11.9	WAT	train batch: 0	0	3	5		faint tail	compact		
+304	311	280	J1438+0926	14 38 07.58	+09 26 11.7	WAT	train batch: 7	0	3	5			SMD		
+305	312	281	J1438+4753	14 38 40.48	+47 53 56.8	WAT	train batch: 6	0	3	5			SMD		
+306	313		J1440+1342	14 40 02.86	+13 42 17.9	WAT	train batch: 7	0	1.4	4.8	missing some extended faint emission	sig	compact		
+307	315	282	J1443+5201	14 43 02.78	+52 01 37.3	WAT	train batch: 8	0	3	5			SMD		
+308	317	283	J1444-0542	14 44 29.96	-05 42 48.8	WAT	train batch: 1	0	3	5			SMD		
+309	316	284	J1444-0311	14 44 57.45	-03 11 51.3	WAT	train batch: 0	0	3	5			SMD		
+310	318	285	J1445+2951	14 45 12.73	+29 51 36.9	WAT	train batch: 5	0	3	5			SMD		
+311	319	286	J1445+6357	14 45 38.45	+63 57 33.8	WAT	train batch: 0	0	3	5			SMD		
+312	321		J1446+4319	14 46 00.93	+43 19 12.8	WAT		0	3	5	looks like a blob, loosing the structure	bad	discard		
+313	320	287	J1446+1402	14 46 33.83	+14 02 11.9	WAT	train batch: 4	0	3	5			SMD		
+314	322	288	J1448+5944	14 48 38.85	+59 44 52.0	WAT	train batch: 2	0	3	5			SMD		
+315	323	289	J1450+1447	14 50 01.50	+14 47 47.7	WAT	train batch: 6	0	3	5			SMD		
+316	324	290	J1450+2728	14 50 22.52	+27 28 20.5	WAT	train batch: 7	0	3	5			SMD		
+317	326	291	J1452+1707	14 52 22.84	+17 07 17.9	WAT	train batch: 2	0	3	5			SMD		
+318	325	292	J1452+0636	14 52 30.11	+06 36 45.0	WAT	train batch: 4	0	3	5			SMD		
+319	327	293	J1457+0232	14 57 22.66	+02 32 56.4	WAT	train batch: 4	0	3	5			SMD		
+320	328	294	J1457+3140	14 57 55.85	+31 40 57.1	WAT	train batch: 4	0	3	5			SMD		
+321	329	295	J1459+2754	14 59 00.23	+27 54 00.8	WAT	train batch: 6	0	3	5			SMD		
+322	330	296	J1501+2134	15 01 28.25	+21 34 23.8	WAT	train batch: 6	0	3	5			SMD		
+323	331		J1504+1409	15 04 43.54	+14 09 25.8	WAT	train batch: 0	1	2	5	missing some extended faint emission	bad; sig	compact		
+324	332	297	J1505+0253	15 05 50.75	+02 53 04.6	WAT	train batch: 2	0	3	5			SMD		
+325	333	298	J1510+0544	15 10 56.07	+05 44 41.7	WAT	train batch: 4	0	3	5			SMD		
+326	334	299	J1511+3633	15 11 25.92	+36 33 36.0	WAT	train batch: 3	0	3	5			SMD		
+327	337	300	J1512+3654	15 12 18.26	+36 54 18.8	WAT	train batch: 0	0	3	5			SMD		
+328	336	301	J1512+1513	15 12 20.61	+15 13 51.3	WAT	train batch: 1	0	3	5			SMD		
+329	335	302	J1512+0612	15 12 54.82	+06 12 11.7	WAT	train batch: 6	0	3	5			SMD		
+330	338	303	J1520+2329	15 20 01.08	+23 29 05.2	WAT	train batch: 2	0	3	5			SMD		
+331	340	304	J1521+5104	15 21 25.02	+51 04 03.1	WAT	train batch: 5	0	3	5			SMD		
+332	339	305	J1521+3157	15 21 26.98	+31 57 33.3	WAT	train batch: 7	0	3	5			SMD		
+333	341	306	J1524+1321	15 24 43.44	+13 21 21.3	WAT	train batch: 3	0	3	5			SMD		
+334	342	307	J1528+0714	15 28 18.54	+07 14 09.3	WAT	train batch: 7	1	1.8	5	missing some extended faint emission	sig	SMD		
+335	343	308	J1529-0431	15 29 18.88	-04 31 38.3	WAT	train batch: 5	0	3	5			SMD		
+336	345	309	J1532+4658	15 32 01.76	+46 58 52.8	WAT	train batch: 6	0	3	5			SMD		
+337	344	310	J1532+0028	15 32 52.09	+00 28 09.4	WAT	train batch: 0	0	3	5			SMD		
+338	346	311	J1533+5700	15 33 46.37	+57 00 11.9	WAT	train batch: 8	0	3	5			SMD		
+339	347	312	J1534+0556	15 34 39.48	+05 56 17.5	WAT	train batch: 8	0	3	5			SMD		
+340	348	313	J1536-0201	15 36 44.82	-02 01 36.8	WAT	train batch: 2	0	3	5			SMD		
+341	349	314	J1537+4051	15 37 52.75	+40 51 30.6	WAT	train batch: 2	0	3	5			SMD		
+342	350	315	J1538+3557	15 38 56.78	+35 57 09.6	WAT	train batch: 2	0	3	5			SMD		
+343	353		J1539+0450	15 39 04.01	+04 50 56.9	WAT	train batch: 1	1	1	5	missing some extended faint emission	bad; sig	compact		
+344	352	316	J1539-0544	15 39 23.41	-05 44 42.9	WAT	train batch: 6	0	3	5			SMD		
+345	351	317	J1539-0215	15 39 59.25	-02 15 10.2	WAT	train batch: 8	0	3	5			SMD		
+346	354	318	J1545-0249	15 45 48.80	-02 49 38.6	WAT	train batch: 7	0	3	5			SMD		
+347	355	319	J1548+5813	15 48 26.29	+58 13 14.0	WAT	train batch: 0	0	3	5			SMD		
+348	356	320	J1550+1200	15 50 34.84	+12 00 40.8	WAT	train batch: 3	0	3	5			SMD		
+349	357	321	J1551+0609	15 51 40.33	+06 09 16.7	WAT	train batch: 5	0	3	5			SMD		
+350	358	322	J1554+5819	15 54 51.41	+58 19 09.5	WAT	train batch: 4	0	3	5			SMD		
+351	359	323	J1559-0143	15 59 20.03	-01 43 33.39	WAT	train batch: 8	0	3	5			SMD		
+352	360	324	J1601+3155	16 01 30.74	+31 55 32.4	WAT	test batch	0	3	5			SMD	s	g
+353	361		J1606+5610	16 06 04.55	+56 10 44.7	WAT	train batch: 6	0	3	5		small	compact		
+354	362		J1607+4825	16 07 28.21	+48 25 35.2	WAT	train batch: 1	0	3	4.2		small	compact		
+355	363	325	J1608+0141	16 08 03.55	+01 41 54.34	WAT	test batch	0	3	5			SMD	g	g
+356	364		J1609+5844	16 09 29.98	+58 44 08.0	WAT		0	3	5		bad; small	discard		
+357	365	326	J1616+0926	16 16 53.17	+09 26 35.7	WAT	test batch	0	3	5			SMD	g	g
+358	366	327	J1620+4740	16 20 06.81	+47 40 45.7	WAT	train batch: 0	0	3	5			SMD		
+359	367	328	J1621+1140	16 21 23.34	+11 40 12.5	WAT	train batch: 3	0	3	5			SMD		
+360	370	329	J1625+4813	16 25 12.80	+48 13 03.4	WAT	train batch: 8	0	3	5			SMD		
+361	369	330	J1625+4456	16 25 23.87	+44 56 23.4	WAT	train batch: 3	0	3	5			SMD		
+362	368	331	J1625+3026	16 25 31.80	+30 26 39.4	WAT	train batch: 6	0	3	5			SMD		
+363	371	332	J1631+0531	16 31 10.28	+05 31 50.3	WAT	train batch: 7	0	3	5			SMD		
+364	372		J1631+0535	16 31 42.43	+05 35 23.1	WAT	train batch: 7	1	1.4	5	missing some extended faint emission	bad	compact		
+365	373	333	J1633+1710	16 33 51.11	+17 10 54.5	WAT	train batch: 4	0	3	5			SMD		
+366	375	334	J1635+4309	16 35 16.22	+43 09 55.9	WAT	train batch: 4	0	3	5			SMD		
+367	374	335	J1635+2020	16 35 17.08	+20 20 48.5	WAT	train batch: 5	0	3	5			SMD		
+368	376	336	J1641+1004	16 41 08.91	+10 04 42.3	WAT	train batch: 7	0	3	5			SMD		
+369	377	337	J1645+1046	16 45 00.34	+10 46 40.1	WAT	train batch: 8	0	3	5			SMD		
+370	378	338	J1645+5842	16 45 22.51	+58 42 55.8	WAT	train batch: 0	0	3	5			SMD		
+371	379	339	J1650+3202	16 50 07.71	+32 02 09.0	WAT	train batch: 3	0	3	5			SMD		
+372	380	340	J1651+3500	16 51 25.35	+35 00 36.2	WAT	train batch: 8	0	3	5			SMD		
+373	381	341	J1655+5217	16 55 18.47	+52 17 23.8	WAT	train batch: 6	0	3	5			SMD		
+374	382	342	J1657+2746	16 57 47.88	+27 46 09.5	WAT	train batch: 2	0	3	5			SMD		
+375	383	343	J1659+2955	16 59 36.94	+29 55 17.2	WAT	train batch: 4	0	3	5			SMD		
+376	384	344	J1701+4959	17 01 37.10	+49 59 14.6	WAT	train batch: 8	0	3	5			SMD		
+377	385	345	J1705+5109	17 05 26.41	+51 09 35.4	WAT	train batch: 5	0	3	5			SMD		
+378	386	346	J1708+4723	17 08 51.55	+47 23 35.5	WAT	train batch: 4	0	3	5			SMD		
+379	387	347	J1718+4202	17 18 02.23	+42 02 11.5	WAT	train batch: 0	1	1.6	5	missing some extended faint emission	sig	SMD		
+380	388	348	J1719+3547	17 19 36.39	+35 47 06.98	WAT	train batch: 8	0	3	5			SMD		
+381	389	349	J1723+4757	17 23 51.91	+47 57 32.7	WAT	train batch: 1	0	3	5			SMD		
+382	390		J1727+4030	17 27 55.04	+40 30 23.5	WAT	train batch: 2	0	3	5		small	compact		
+383	391		J1743+6342	17 43 41.98	+63 42 37.3	WAT		0	3	5		double	discard		
+384	392	350	J2020+0026	20 20 53.29	+00 26 26.1	WAT	train batch: 2	1	1	5	missing some extended faint emission	sig	SMD		
+385	393	351	J2031+0107	20 31 24.60	+01 07 14.8	WAT	train batch: 8	0	3	5			SMD		
+386	394	352	J2056+0205	20 56 37.87	+02 05 45.8	WAT	train batch: 1	0	3	5			SMD		
+387	395	353	J2127-0127	21 27 10.80	-01 27 21.2	WAT	train batch: 7	0	3	5			SMD		
+388	397	354	J2131-0555	21 31 53.07	-05 55 55.0	WAT	train batch: 6	0	3	5			SMD		
+389	398	355	J2138-0545	21 38 19.97	-05 45 44.2	WAT	train batch: 2	0	3	5			SMD		
+390	399	356	J2139+1008	21 39 46.25	+10 08 28.0	WAT	test batch	0	3	5			SMD	s2	g
+391	401	357	J2142+1017	21 42 03.49	+10 17 21.8	WAT	train batch: 0	0	3	5			SMD		
+392	400		J2142-0549	21 42 36.85	-05 49 43.3	WAT		1	1.8	3.4	missing some extended faint emission	bad	discard		
+393	402	358	J2145-0659	21 45 03.51	-06 59 24.7	WAT	train batch: 2	0	3	5			SMD		
+394	403	359	J2147+1215	21 47 11.37	+12 15 15.8	WAT	train batch: 1	0	3	5			SMD		
+395	404	360	J2148-0825	21 48 01.28	-08 25 27.5	WAT	train batch: 0	0	3	5			SMD		
+396	405	361	J2150-0744	21 50 10.33	-07 44 17.8	WAT	train batch: 5	0	3	5			SMD		
+397	406	362	J2158-0507	21 58 52.69	-05 07 35.8	WAT	train batch: 1	0	3	5			SMD		
+398	407	363	J2201-0451	22 01 39.25	-04 51 36.9	WAT	train batch: 1	0	3	5			SMD		
+399	408	364	J2202-0101	22 02 04.86	-01 01 01.4	WAT	train batch: 7	0	3	5			SMD		
+400	409	365	J2207-0102	22 07 30.82	-01 02 46.1	WAT	train batch: 8	0	1.4	5	missing some extended faint emission	sig	SMD		
+401	410	366	J2210-0152	22 10 04.77	-01 52 33.9	WAT	train batch: 0	0	3	5			SMD		
+402	411	367	J2213-0854	22 13 12.43	-08 54 37.1	WAT	test batch	0	3	5			SMD	g	g
+403	412	368	J2214-0447	22 14 44.07	-04 47 33.6	WAT	train batch: 4	0	3	5			SMD		
+404	413	369	J2215-0757	22 15 49.46	-07 57 39.9	WAT	train batch: 6	0	3	5			SMD		
+405	414	370	J2218+0230	22 18 07.20	+02 30 33.2	WAT	train batch: 4	0	3	5			SMD		
+406	415	371	J2221-0747	22 21 16.81	-07 47 42.6	WAT	train batch: 3	0	3	5			SMD		
+407	416	372	J2248+0052	22 48 12.59	+00 52 52.8	WAT	train batch: 3	1	1.8	5	missing some extended faint emission	sig	SMD		
+408	417	373	J2250-0141	22 50 47.02	-01 41 17.2	WAT	train batch: 4	0	3	5			SMD		
+409	418	374	J2301+0037	23 01 35.06	+00 37 13.1	WAT	test batch	0	3	5			SMD	g	g
+410	419	375	J2306-0357	23 06 31.11	-03 57 45.2	WAT	train batch: 8	0	3	5			SMD		
+411	420	376	J2312-0919	23 12 12.16	-09 19 28.6	WAT	test batch	0	3	5			SMD	g	g
+412	421	377	J2315-0300	23 15 27.84	-03 00 05.1	WAT	train batch: 3	0	3	5			SMD		
+413	422	378	J2319-0737	23 19 19.27	-07 37 34.5	WAT	train batch: 3	0	3	5			SMD		
+414	423		J2320-0433	23 20 49.50	-04 33 58.5	WAT		0	3	5	is this wat or nat?		confusing		
+415	424	379	J2328+0038	23 28 54.12	+00 38 48.8	WAT	train batch: 3	0	3	5			SMD		
+416	425	380	J2334-0759	23 34 55.59	-07 59 14.4	WAT	test batch	0	1	4.2	missing some extended faint emission	sig	SMD	g	cut
+417	426	381	J2337-0900	23 37 34.47	-09 00 15.4	WAT	train batch: 1	0	3	5			SMD		
+418	427	382	J2344-0658	23 44 42.31	-06 58 09.8	WAT	train batch: 7	0	3	5			SMD		
+419	428		J2349-0812	23 49 44.66	-08 12 08.6	WAT		0	3	5	nothing there in both the images	bad	discard		
+420	429	383	J2350-0117	23 50 28.43	-01 17 02.0	WAT	train batch: 2	0	3	5			SMD		
+421	430	384	J2356+0119	23 56 36.26	+01 19 29.1	WAT	train batch: 8	0	3	5			SMD		
+422	1	385	J0012-0607	00 12 48.62	-06 07 03.1	NAT	train batch: 4	0	3	5			SMD		
+423	2	386	J0017+0827	00 17 37.70	+08 27 52.9	NAT	train batch: 7	0	3	5			SMD		
+424	3		J0020+0004	00 20 14.18	+00 04 48.0	NAT		0	3	5		double	discard		
+425	4	387	J0023+0717	00 23 46.06	+07 17 55.5	NAT	train batch: 4	0	3	5			SMD		
+426	5	388	J0041-0925	00 41 49.95	-09 25 48.6	NAT	train batch: 7	0	3	5			SMD		
+427	6	389	J0047+1034	00 47 11.24	+10 34 58.2	NAT	train batch: 2	0	3	5			SMD		
+428	7	390	J0054+0302	00 54 43.83	+03 02 10.5	NAT	test batch	0	3	5			SMD	s	g
+429	9	391	J0056-0120	00 56 02.70	-01 20 03.5	NAT	train batch: 5	0	3	5			SMD		
+430	8		J0056-0119	00 56 30.55	-01 19 19.9	NAT		0	3	5		bad; wat	discard		
+431	10		J0111+1141	01 11 40.13	+11 41 34.1	NAT		0	3	5		dim	discard		
+432	11	392	J0140+0223	01 40 23.32	+02 23 56.7	NAT	train batch: 2	0	3	5			SMD		
+433	12	393	J0148+0000	01 48 07.84	+00 00 52.2	NAT	train batch: 2	0	3	5			SMD		
+434	13		J0148+0142	01 48 17.75	+01 42 54.3	NAT	train batch: 7	0	2.4	5	missing some extended faint emission	bad	compact		
+435	14	394	J0150-0818	01 50 43.47	-08 18 36.7	NAT	train batch: 6	0	3	5			SMD		
+436	15	395	J0212-0155	02 12 42.34	-01 55 47.7	NAT	train batch: 1	0	3	5			SMD		
+437	16	396	J0216-0245	02 16 19.98	-02 45 26.7	NAT	train batch: 1	0	3	5			SMD		
+438	17	397	J0223+0640	02 23 27.58	+06 40 39.1	NAT	train batch: 1	0	3	5			SMD		
+439	18		J0231+0531	02 31 17.02	+05 31 09.7	NAT	train batch: 4	0	3	5	cant see anything	too small	compact		
+440	19	398	J0256-0542	02 56 20.02	-05 42 49.5	NAT	train batch: 4	0	3	5			SMD		
+441	20	399	J0317-0816	03 17 41.97	-08 16 39.8	NAT	train batch: 6	0	3	5			SMD		
+442	22	400	J0334-0109	03 34 34.09	-01 09 52.3	NAT	train batch: 7	0	3	5			SMD		
+443	23	401	J0335+0420	03 35 05.72	+04 20 17.1	NAT	train batch: 6	0	3	5			SMD		
+444	24	402	J0337+0421	03 37 50.21	+04 21 04.2	NAT	train batch: 7	0	3	5			SMD		
+445	25		J0340-0111	03 40 31.47	-01 11 40.6	NAT		0	1.4	5	missing some extended faint emission	bad	confusing		
+446	26	403	J0349-0648	03 49 28.97	-06 48 00.1	NAT	train batch: 3	0	3	5			SMD		
+447	27	404	J0356+0013	03 56 50.87	+00 13 23.2	NAT	test batch	0	3	5			SMD	g	g
+448	28	405	J0703+5147	07 03 36.36	+51 47 17.1	NAT	train batch: 6	0	3	5			SMD		
+449	29	406	J0709+4331	07 09 06.53	+43 31 35.4	NAT	train batch: 5	0	3	5			SMD		
+450	30	407	J0714+3634	07 14 49.33	+36 34 49.8	NAT	train batch: 4	0	3	5			SMD		
+451	31	408	J0718+4820	07 18 25.52	+48 20 20.6	NAT	test batch	0	3	5			SMD	g	lim
+452	32	409	J0720+3617	07 20 11.94	+36 17 49.6	NAT	train batch: 4	0	3	5			SMD		
+453	33	410	J0729+5949	07 29 30.39	+59 49 52.0	NAT	train batch: 1	0	3	5			SMD		
+454	34	411	J0731+3251	07 31 13.85	+32 51 15.1	NAT	test batch	0	3	5			SMD	g	g
+455	35	412	J0732+4208	07 32 01.32	+42 08 29.9	NAT	train batch: 0	0	3	5			SMD		
+456	36	413	J0732+6150	07 32 19.53	+61 50 03.9	NAT	train batch: 7	0	3	5			SMD		
+457	37	414	J0734+3611	07 34 41.42	+36 11 37.2	NAT	train batch: 7	0	3	5			SMD		
+458	39	415	J0738+4159	07 38 49.51	+41 59 07.5	NAT	train batch: 5	0	3	5			SMD		
+459	38	416	J0738+3846	07 38 54.99	+38 46 23.4	NAT	train batch: 6	0	3	5			SMD		
+460	40	417	J0743+2710	07 43 06.29	+27 10 14.2	NAT	train batch: 1	0	3	5			SMD		
+461	41		J0754+3951	07 54 42.69	+39 51 39.1	NAT		0	3	5	is it nat or wat?		confusing		
+462	42	418	J0756+6030	07 56 42.43	+60 30 40.2	NAT	train batch: 1	0	3	5			SMD		
+463	43		J0802+3904	08 02 22.95	+39 04 21.3	NAT		0	3	5		dim	discard		
+464	44	419	J0803+3951	08 03 44.68	+39 51 00.0	NAT	train batch: 2	0	3	5			SMD		
+465	45		J0809+0934	08 09 26.10	+09 34 03.8	NAT	train batch: 3	0	3	5		small	compact		
+466	46		J0811+3810	08 11 18.94	+38 10 08.7	NAT		0	3	5		small	discard		
+467	49		J0819+5804	08 19 11.01	+58 04 20.9	NAT		0	3	5		bad	confusing		
+468	47	420	J0819+2522	08 19 38.66	+25 22 22.8	NAT	train batch: 2	0	3	5			SMD		
+469	48	421	J0819+5746	08 19 39.25	+57 46 06.6	NAT	train batch: 4	0	3	5			SMD		
+470	51	422	J0824+5200	08 24 44.68	+52 00 33.8	NAT	train batch: 3	0	3	5			SMD		
+471	54	423	J0827+3820	08 27 12.91	+38 20 02.3	NAT	train batch: 1	0	3	5			SMD		
+472	53	424	J0827+0816	08 27 30.03	+08 16 26.1	NAT	train batch: 3	0	2	5	missing some extended faint emission	sig	SMD		
+473	55	425	J0828+2436	08 28 39.63	+24 36 55.8	NAT	train batch: 4	0	3	5			SMD		
+474	56	426	J0829+6322	08 29 10.55	+63 22 28.5	NAT	test batch	0	3	5			SMD	g	g
+475	57	427	J0830+2155	08 30 50.27	+21 55 57.8	NAT	train batch: 8	0	1.6	5	missing some extended faint emission	sig	SMD		
+476	58	428	J0834+3945	08 34 30.09	+39 45 09.5	NAT	test batch	0	3	5			SMD	s	n
+477	59	429	J0844+2538	08 44 47.54	+25 38 23.7	NAT	train batch: 8	0	3	5			SMD		
+478	60	430	J0846+2024	08 46 47.94	+20 24 48.9	NAT	test batch	0	3	5			SMD	g	lim
+479	61	431	J0850+1349	08 50 53.72	+13 49 00.3	NAT	train batch: 5	0	3	5			SMD		
+480	62	432	J0851+1615	08 51 10.34	+16 15 30.6	NAT	test batch	0	3	5			SMD	s	g
+481	63	433	J0857+1704	08 57 57.06	+17 04 47.3	NAT	train batch: 4	0	3	5			SMD		
+482	64	434	J0858+1620	08 58 39.90	+16 20 08.8	NAT	train batch: 6	0	3	5			SMD		
+483	65	435	J0901+0259	09 01 25.81	+02 59 28.8	NAT	train batch: 8	0	3	5			SMD		
+484	66	436	J0902+3505	09 02 30.30	+35 05 11.0	NAT	test batch	0	3	5			SMD	n	g
+485	67	437	J0903+4509	09 03 05.38	+45 09 59.7	NAT	train batch: 0	0	3	5			SMD		
+486	68	438	J0914+0824	09 14 50.71	+08 24 42.7	NAT	train batch: 5	0	3	5			SMD		
+487	69	439	J0916+1729	09 16 42.69	+17 29 20.4	NAT	train batch: 2	0	3	5			SMD		
+488	70	440	J0916+3818	09 16 48.04	+38 18 06.2	NAT	train batch: 0	0	3	5			SMD		
+489	71	441	J0919-0129	09 19 40.43	-01 29 50.3	NAT	train batch: 5	0	3	5			SMD		
+490	72	442	J0921+0723	09 21 04.79	+07 23 38.3	NAT	train batch: 3	0	3	5			SMD		
+491	73	443	J0922-0724	09 22 39.18	-07 24 27.5	NAT	train batch: 2	0	3	5			SMD		
+492	74	444	J0927+5423	09 27 04.27	+54 23 46.6	NAT	train batch: 3	0	3	5			SMD		
+493	75	445	J0933+1341	09 33 28.30	+13 41 37.5	NAT	test batch	0	3	5			SMD	lim	n
+494	76	446	J0936+0340	09 36 43.62	+03 40 44.1	NAT	train batch: 6	0	3	5			SMD		
+495	77	447	J0940+2530	09 40 56.39	+25 30 59.5	NAT	train batch: 0	0	3	5			SMD		
+496	78	448	J0942+1523	09 42 14.45	+15 22 56.3	NAT	train batch: 0	0	3	5			SMD		
+497	79	449	J0944-0616	09 44 54.86	-06 16 07.9	NAT	train batch: 2	0	3	5			SMD		
+498	80	450	J0951+1802	09 51 13.21	+18 02 08.8	NAT	train batch: 1	0	3	5			SMD		
+499	134	451	J0953+2924	09 53 27.88	+29 24 19.8	NAT	train batch: 6	0	3	5			SMD		
+500	82	452	J1005+2210	10 05 15.91	+22 10 47.5	NAT	train batch: 7	0	3	5			SMD		
+501	84	453	J1006+0850	10 06 28.48	+08 50 12.3	NAT	train batch: 2	0	3	5			SMD		
+502	85	454	J1010+2145	10 10 42.61	+21 45 57.3	NAT	train batch: 7	0	3	5			SMD		
+503	86		J1011-0607	10 11 34.79	-06 07 51.5	NAT	train batch: 8	0	2.8	3.4		small	compact		
+504	87	455	J1013+5532	10 13 07.16	+55 32 01.6	NAT	train batch: 3	0	3	5			SMD		
+505	89	456	J1014+4945	10 14 36.20	+49 45 32.6	NAT	train batch: 2	0	3	5			SMD		
+506	88	457	J1014+0038	10 14 41.93	+00 38 01.5	NAT	train batch: 4	0	3	5			SMD		
+507	90	458	J1015+2627	10 15 18.55	+26 27 54.9	NAT	train batch: 3	0	3	5			SMD		
+508	91		J1016+0930	10 16 05.97	+09 30 12.3	NAT		0	3	5	nat or wat?	wat	confusing		
+509	92	459	J1016+4708	10 16 06.64	+47 08 06.6	NAT	test batch	0	3	5			SMD	s	lim
+510	93	460	J1017+6352	10 18 01.89	+63 52 30.1	NAT	train batch: 4	0	3	5			SMD		
+511	94	461	J1022+3758	10 22 54.28	+37 58 16.6	NAT	train batch: 4	0	3	5			SMD		
+512	95	462	J1023+0851	10 23 22.59	+08 51 26.9	NAT	train batch: 2	0	1	5	missing some extended faint emission	sig	SMD		
+513	98	463	J1032+3502	10 32 01.62	+35 02 52.9	NAT	train batch: 3	0	3	5			SMD		
+514	97	464	J1032+3152	10 32 15.87	+31 52 35.7	NAT	test batch	0	3	5			SMD	s	lim
+515	96	465	J1032+0514	10 32 21.43	+05 14 21.8	NAT	train batch: 7	0	3	5			SMD		
+516	99		J1035+5907	10 35 41.52	+59 07 07.7	NAT	train batch: 6	0	3	5		dim	compact		
+517	100		J1040+1548	10 40 20.07	+15 48 33.4	NAT	train batch: 5	0	3	5		dim	compact		
+518	101	466	J1042+2907	10 42 54.72	+29 07 17.5	NAT	train batch: 7	0	3	5			SMD		
+519	102		J1043-0553	10 43 18.94	-05 53 52.5	NAT		0	3	5		bad; dim	discard		
+520	104		J1043+0947	10 43 26.16	+09 47 11.8	NAT		0	3	5		wat	confusing		
+521	103	467	J1043+0847	10 43 44.72	+08 47 49.8	NAT	train batch: 3	0	3	5			SMD		
+522	105	468	J1045+1258	10 45 01.48	+12 58 02.8	NAT	train batch: 3	0	3	5			SMD		
+523	106		J1046+0902	10 46 47.92	+09 02 56.6	NAT		0	3	5	cant see anything	dim	discard		
+524	107	469	J1046+1631	10 46 56.15	+16 31 25.9	NAT	train batch: 4	0	3	5			SMD		
+525	108	470	J1048+1857	10 48 45.26	+18 57 57.8	NAT	train batch: 6	0	3	5			SMD		
+526	109	471	J1051+0503	10 51 29.91	+05 03 24.2	NAT	train batch: 0	0	3	5			SMD		
+527	110	472	J1055+1432	10 55 40.80	+14 32 20.2	NAT	train batch: 5	0	3	5			SMD		
+528	111	473	J1056+1128	10 56 14.77	+11 28 42.7	NAT	train batch: 8	0	1.4	5	missing some extended faint emission	sig	SMD		
+529	112	474	J1104+4726	11 04 44.46	+47 26 56.8	NAT	train batch: 2	0	3	5			SMD		
+530	113	475	J1105+1235	11 05 28.85	+12 35 14.6	NAT	train batch: 6	0	3	5			SMD		
+531	114	476	J1109+3252	11 09 56.70	+32 52 05.9	NAT	train batch: 5	0	3	5			SMD		
+532	115	477	J1110+1159	11 10 06.16	+11 59 43.2	NAT	train batch: 7	0	3	5			SMD		
+533	116	478	J1131+2125	11 31 22.88	+21 25 56.5	NAT	train batch: 7	0	3	5			SMD		
+534	117	479	J1131+0128	11 31 31.07	+01 28 27.8	NAT	train batch: 0	0	3	5			SMD		
+535	118	480	J1131+3908	11 31 57.05	+39 08 00.1	NAT	train batch: 4	0	3	5			SMD		
+536	119	481	J1132+1344	11 32 40.23	+13 44 26.2	NAT	test batch	0	3	5			SMD	g	g
+537	120	482	J1133+4903	11 33 59.34	+49 03 45.5	NAT	train batch: 7	0	3	5			SMD		
+538	121	483	J1137+3000	11 37 33.28	+30 00 06.6	NAT	train batch: 2	0	3	5			SMD		
+539	122	484	J1143+1641	11 43 12.27	+16 41 39.3	NAT	train batch: 4	0	1.2	5	missing some extended faint emission	sig	SMD		
+540	123		J1144+3710	11 44 33.74	+37 10 06.5	NAT		0	3	5		bad; dim	discard		
+541	124	485	J1145+1529	11 45 22.20	+15 29 43.	NAT	test batch	0	3	5			SMD	s	g
+542	125	486	J1152+4229	11 52 37.64	+42 29 04.7	NAT	train batch: 8	0	3	5			SMD		
+543	126	487	J1154+1009	11 54 16.57	+10 09 40.4	NAT	train batch: 0	0	3	5			SMD		
+544	127	488	J1156+2048	11 56 38.83	+20 48 47.5	NAT	train batch: 8	0	3	5			SMD		
+545	128	489	J1201-0703	12 01 25.73	-07 03 10.9	NAT	train batch: 4	0	3	5			SMD		
+546	129	490	J1202+5801	12 02 02.76	+58 01 48.1	NAT	train batch: 0	0	3	5			SMD		
+547	130	491	J1204+2013	12 04 01.70	+20 13 55.7	NAT	train batch: 0	0	3	5			SMD		
+548	131	492	J1208+3425	12 08 28.56	+34 25 09.4	NAT	train batch: 1	0	3	5			SMD		
+549	132	493	J1209+5715	12 09 00.38	+57 15 30.5	NAT	train batch: 4	0	3	5			SMD		
+550	133	494	J1211+0707	12 11 56.28	+07 07 29.2	NAT	train batch: 0	0	3	5			SMD		
+551	134	495	J1215+3243	12 15 50.25	+32 43 13.0	NAT	train batch: 1	0	3	5			SMD		
+552	135	496	J1217+0336	12 17 31.4	+03 36 57.0	NAT	test batch	0	3	5			SMD	n	lim
+553	136	497	J1217+0340	12 17 40.19	+03 40 02.1	NAT	train batch: 0	0	3	5			SMD		
+554	137	498	J1220+0203	12 20 13.94	+02 03 52.2	NAT	train batch: 3	0	3	5			SMD		
+555	138	499	J1222-0449	12 22 23.69	-04 49 35.4	NAT	test batch	0	3	5			SMD	s	g
+556	139	500	J1225+3737	12 25 25.15	+37 37 28.7	NAT	train batch: 4	0	3	5			SMD		
+557	140	501	J1227+4928	12 27 32.29	+49 28 44.0	NAT	train batch: 0	0	3	5			SMD		
+558	141	502	J1229+1140	12 29 51.29	+11 40 40.4	NAT	train batch: 1	0	3	5			SMD		
+559	142	503	J1231+3850	12 31 45.98	+38 50 30.9	NAT	train batch: 8	0	3	5			SMD		
+560	143	504	J1234+4012	12 34 56.52	+40 12 54.4	NAT	train batch: 6	0	3	5			SMD		
+561	145	505	J1235+5314	12 35 28.51	+53 14 57.7	NAT	train batch: 1	0	3	5			SMD		
+562	144	506	J1235+0741	12 35 37.39	+07 41 10.5	NAT	train batch: 6	0	1.4	5		bad	SMD		
+563	146		J1239+1423	12 39 16.13	+14 23 09.7	NAT		1	2.2	5	missing some extended faint emission	bad; sig	discard		
+564	147	507	J1241+6056	12 41 48.03	+60 56 39.4	NAT	train batch: 3	0	3	5			SMD		
+565	148	508	J1242+5022	12 42 08.74	+50 22 12.8	NAT	train batch: 2	0	3	5			SMD		
+566	149	509	J1243-0726	12 43 10.27	-07 26 09.2	NAT	train batch: 1	0	3	5			SMD		
+567	150	510	J1246+3005	12 46 51.53	+30 05 31.1	NAT	train batch: 2	0	3	5			SMD		
+568	153	511	J1247+0931	12 47 24.16	+09 31 08.9	NAT	train batch: 2	0	3	5			SMD		
+569	151	512	J1247-0249	12 47 51.48	-02 49 51.6	NAT	train batch: 0	0	3	5			SMD		
+570	152	513	J1247+0119	12 47 54.54	+01 19 56.5	NAT	train batch: 4	0	3	5			SMD		
+571	155	514	J1249+5004	12 49 18.69	+50 04 49.5	NAT	train batch: 7	0	3	5			SMD		
+572	154	515	J1249+0713	12 49 50.79	+07 13 13.5	NAT	train batch: 3	0	3	5			SMD		
+573	156	516	J1256+0126	12 56 28.28	+01 26 04.7	NAT	train batch: 2	0	3	5			SMD		
+574	157	517	J1259+4906	12 59 30.22	+49 06 00.6	NAT	train batch: 1	0	1.2	4.2		sig	SMD		
+575	158	518	J1301+2818	13 01 10.80	+28 18 29.8	NAT	train batch: 8	0	3	5			SMD		
+576	159	519	J1308+5311	13 08 33.03	+53 11 19.4	NAT	train batch: 8	0	3	5			SMD		
+577	160	520	J1311+1922	13 11 17.46	+19 22 46.3	NAT	train batch: 1	0	3	5			SMD		
+578	162	521	J1313+1745	13 13 36.78	+17 45 28.6	NAT	train batch: 8	0	3	5			SMD		
+579	161		J1313+0220	13 13 41.05	+02 20 36.7	NAT		0	1.4	5	missing some extended faint emission	bad; sig	confusing		
+580	163	522	J1317+1910	13 17 39.52	+19 10 20.8	NAT	train batch: 1	0	3	5			SMD		
+581	164	523	J1317+3144	13 17 56.76	+31 44 47.0	NAT	train batch: 7	0	3	5			SMD		
+582	165	524	J1319+5807	13 19 26.90	+58 07 25.3	NAT	train batch: 3	0	3	5			SMD		
+583	166	525	J1322+1132	13 22 46.31	+11 32 15.9	NAT	train batch: 8	0	3	5			SMD		
+584	167	526	J1327-0440	13 27 05.57	-04 40 47.2	NAT	train batch: 6	0	3	5			SMD		
+585	168	527	J1330+0649	13 30 31.07	+06 49 33.8	NAT	train batch: 3	0	3	5			SMD		
+586	169	528	J1330+1904	13 30 46.50	+19 04 44.5	NAT	train batch: 4	0	3	5			SMD		
+587	171	529	J1334+2537	13 34 37.09	+25 37 20.1	NAT	train batch: 1	1	1.8	5	missing some extended faint emission	bad; sig	SMD		
+588	170	530	J1334+1728	13 34 48.60	+17 28 12.3	NAT	train batch: 2	0	3	5			SMD		
+589	172	531	J1342+1226	13 42 44.59	+12 26 55.6	NAT	train batch: 1	0	1	5	missing some extended faint emission	sig	SMD		
+590	173	532	J1348+3726	13 48 47.55	+37 26 34.2	NAT	train batch: 8	0	3	5			SMD		
+591	175	533	J1349+4828	13 49 36.07	+48 28 44.0	NAT	train batch: 6	0	3	5			SMD		
+592	174	534	J1349+4207	13 49 48.35	+42 07 03.7	NAT	train batch: 2	0	3	5			SMD		
+593	176	535	J1351+0023	13 51 33.47	+00 23 27.6	NAT	train batch: 5	0	3	5			SMD		
+594	178	536	J1353+3305	13 53 02.05	+33 05 28.5	NAT	train batch: 1	0	3	5			SMD		
+595	177	537	J1353+0942	13 53 39.85	+09 42 13.5	NAT	train batch: 8	0	3	5			SMD		
+596	179	538	J1357+0732	13 57 45.57	+07 32 23.7	NAT	train batch: 1	0	3	5			SMD		
+597	180	539	J1358+0352	13 58 57.2	+03 52 26.8	NAT	train batch: 8	0	3	5			SMD		
+598	181	540	J1359-0102	13 59 50.7	-01 02 38.9	NAT	train batch: 3	0	3	5			SMD		
+599	182	541	J1359+4443	13 59 59.4	+44 43 57.5	NAT	train batch: 8	0	3	5			SMD		
+600	183	542	J1403+0610	14 03 13.29	+06 10 08.3	NAT	test batch	0	3	5			SMD	g	g
+601	184	543	J1406+4041	14 06 03.79	+40 41 47.8	NAT	train batch: 7	0	3	5			SMD		
+602	185	544	J1407+4257	14 07 13.04	+42 57 35.7	NAT	test batch	0	3	5			SMD	n	g
+603	186	545	J1413+4844	14 13 30.45	+48 44 26.9	NAT	train batch: 5	0	3	5			SMD		
+604	187	546	J1414+1746	14 14 55.75	+17 46 07.9	NAT	train batch: 2	0	3	5			SMD		
+605	188	547	J1418+0515	14 18 09.17	+05 15 15.5	NAT	train batch: 2	0	3	5			SMD		
+606	189	548	J1418+3211	14 18 11.51	+32 11 39.3	NAT	train batch: 7	0	3	5			SMD		
+607	190		J1419+2008	14 19 20.69	+20 08 41.3	NAT		0	1.6	2.8	missing some extended faint emission	sig	discard		
+608	191	549	J1420+2500	14 20 41.85	+25 00 35.0	NAT	train batch: 0	0	3	5			SMD		
+609	192	550	J1421-0431	14 21 28.90	-04 31 31.9	NAT	train batch: 0	0	3	5			SMD		
+610	193	551	J1421+6100	14 21 36.93	+61 00 24.6	NAT	train batch: 1	0	3	5			SMD		
+611	194	552	J1426+0050	14 26 16.34	+00 50 15.4	NAT	train batch: 8	0	3	5			SMD		
+612	195	553	J1428+3953	14 28 07.32	+39 53 17.2	NAT	train batch: 6	0	3	5			SMD		
+613	196	554	J1432+1247	14 32 25.38	+12 47 24.6	NAT	train batch: 1	0	3	5			SMD		
+614	197		J1435+4758	14 35 54.89	+47 58 19.2	NAT	test batch	0	1.6	5	missing some extended faint emission	sig; dim	compact		
+615	198	555	J1439+4931	14 39 09.78	+49 31 37.6	NAT	train batch: 7	0	3	5			SMD		
+616	199	556	J1442+2945	14 42 28.67	+29 45 56.4	NAT	train batch: 4	0	3	5			SMD		
+617	200	557	J1444+5406	14 44 53.30	+54 06 17.2	NAT	train batch: 6	0	3	5			SMD		
+618	201	558	J1451+1622	14 51 44.40	+16 22 46.9	NAT	train batch: 6	0	3	5			SMD		
+619	203	559	J1452+5022	14 52 15.40	+50 22 25.0	NAT	train batch: 7	0	3	5			SMD		
+620	202	560	J1452+0733	14 52 38.29	+07 33 31.6	NAT	train batch: 0	0	3	5			SMD		
+621	204	561	J1458+1006	14 58 42.16	+10 06 24.2	NAT	train batch: 7	0	3	5			SMD		
+622	205	562	J1500+1241	15 00 50.73	+12 41 47.7	NAT	train batch: 4	0	3	5			SMD		
+623	206	563	J1502+4255	15 02 33.40	+42 55 56.5	NAT	train batch: 2	0	3	5			SMD		
+624	207	564	J1505+1546	15 05 47.86	+15 46 50.8	NAT	train batch: 6	0	3	5			SMD		
+625	208	565	J1509+3327	15 09 57.37	+33 27 15.0	NAT	test batch	0	3	5			SMD	s	g (s)
+626	209	566	J1514+1017	15 14 49.36	+10 17 03.2	NAT	train batch: 8	0	3	5			SMD		
+627	210	567	J1520+2337	15 20 55.66	+23 37 25.2	NAT	train batch: 0	0	3	5			SMD		
+628	211	568	J1524+0957	15 24 41.55	+09 57 36.8	NAT	train batch: 5	0	3	5			SMD		
+629	212	569	J1526+0438	15 26 14.82	+04 38 30.2	NAT	train batch: 5	0	3	5			SMD		
+630	215	570	J1530+4525	15 30 08.02	+45 25 52.8	NAT	train batch: 1	0	3	5			SMD		
+631	214	571	J1530+3210	15 30 30.66	+32 10 56.6	NAT	train batch: 3	0	3	5			SMD		
+632	213	572	J1530-0703	15 30 58.15	-07 03 29.9	NAT	train batch: 7	0	3	5			SMD		
+633	216	573	J1536-0205	15 36 31.19	-02 05 06.3	NAT	train batch: 5	0	3	5			SMD		
+634	217	574	J1539+1805	15 39 28.61	+18 05 59.2	NAT	train batch: 8	0	3	5			SMD		
+635	218	575	J1541+0301	15 41 41.70	+03 01 03.0	NAT	test batch	0	3	5			SMD	g	g
+636	219	576	J1544+1755	15 44 09.94	+17 55 04.8	NAT	train batch: 0	0	3	5			SMD		
+637	220	577	J1544+6042	15 44 46.24	+60 42 19.9	NAT	train batch: 5	0	3	5			SMD		
+638	221	578	J1545-0237	15 45 47.40	-02 37 59.6	NAT	train batch: 5	0	3	5			SMD		
+639	222	579	J1545+0309	15 45 53.98	+03 09 12.3	NAT	train batch: 0	0	3	5			SMD		
+640	223	580	J1546+2620	15 46 30.86	+26 20 31.3	NAT	train batch: 1	0	3	5			SMD		
+641	224	581	J1548+3610	15 48 49.35	+36 10 35.4	NAT	train batch: 0	0	3	5			SMD		
+642	225	582	J1550+1516	15 50 20.46	+15 16 14.1	NAT	train batch: 5	0	3	5			SMD		
+643	226	583	J1551+4025	15 51 54.65	+40 25 18.9	NAT	train batch: 2	0	3	5			SMD		
+644	227	584	J1553+1530	15 53 45.53	+15 30 13.6	NAT	train batch: 5	0	3	5			SMD		
+645	229	585	J1555+0446	15 55 18.73	+04 46 26.9	NAT	train batch: 7	0	1.2	4.6	missing some extended faint emission	sig	SMD		
+646	230	586	J1555+4531	15 55 22.00	+45 31 00.8	NAT	train batch: 6	0	3	5			SMD		
+647	228	587	J1555+0326	15 55 32.43	+03 26 57.9	NAT	train batch: 2	0	3	5			SMD		
+648	231		J1558+5857	15 58 30.11	+58 57 59.1	NAT		0	2	5	missing some extended faint emission	bad	discard		
+649	232		J1600+2300	16 00 09.68	+23 00 56.2	NAT		0	3	5		bad	discard		
+650	233	588	J1603+2857	16 03 38.33	+28 57 48.6	NAT	train batch: 8	0	3	5			SMD		
+651	234	589	J1603+3133	16 03 40.50	+31 33 00.7	NAT	train batch: 0	0	3	5			SMD		
+652	235	590	J1607+3442	16 07 23.84	+34 42 10.9	NAT	train batch: 3	0	3	5			SMD		
+653	236	591	J1609+6144	16 09 30.66	+61 44 19.5	NAT	train batch: 0	0	3	5			SMD		
+654	237	592	J1610+1203	16 10 39.03	+12 03 18.8	NAT	train batch: 5	0	3	5			SMD		
+655	238	593	J1611+0415	16 11 02.89	+04 15 03.1	NAT	train batch: 4	0	3	5			SMD		
+656	239	594	J1613+1921	16 13 35.02	+19 21 05.8	NAT	train batch: 3	0	3	5			SMD		
+657	240	595	J1616+0906	16 16 10.48	+09 06 55.3	NAT	train batch: 0	0	3	5			SMD		
+658	241	596	J1616+4226	16 16 37.83	+42 26 55.7	NAT	train batch: 3	0	3	5			SMD		
+659	243		J1623+4618	16 23 43.99	+46 18 02.6	NAT		0	3	5		dim	discard		
+660	242	597	J1623+1110	16 23 46.00	+11 10 47.4	NAT	train batch: 7	0	3	5			SMD		
+661	244	598	J1625+0932	16 25 23.45	+09 32 29.2	NAT	train batch: 3	0	3	5			SMD		
+662	245	599	J1634+0626	16 34 02.06	+06 26 39.3	NAT	train batch: 0	0	3	5			SMD		
+663	246	600	J1639+5346	16 39 30.32	+53 46 54.9	NAT	train batch: 8	0	3	5			SMD		
+664	248	601	J1640+4634	16 40 44.33	+46 34 06.5	NAT	train batch: 1	0	1.6	5	missing some extended faint emission	sig	SMD		
+665	247	602	J1640+3247	16 40 53.90	+32 47 28.4	NAT	train batch: 4	0	3	5			SMD		
+666	249	603	J1643+1406	16 43 30.08	+14 06 14.2	NAT	train batch: 6	0	3	5			SMD		
+667	250	604	J1650+3303	16 50 36.46	+33 03 00.1	NAT	train batch: 7	0	3	5			SMD		
+668	251	605	J1652+3055	16 52 05.38	+30 55 17.0	NAT	test batch	0	3	5			SMD	s	g
+669	252	606	J1657+4319	16 57 32.98	+43 19 42.1	NAT	train batch: 3	0	3	5			SMD		
+670	253	607	J1700+4442	17 00 47.39	+44 42 42.0	NAT	test batch	0	3	5			SMD	n	g
+671	254	608	J1703+4139	17 03 32.97	+41 39 57.6	NAT	train batch: 0	0	3	5			SMD		
+672	255	609	J1704+2452	17 04 51.26	+24 52 33.6	NAT	train batch: 8	0	3	5			SMD		
+673	256	610	J1710+4022	17 10 13.72	+40 22 03.4	NAT	train batch: 5	0	3	5			SMD		
+674	257	611	J1713+6347	17 13 16.01	+63 47 37.5	NAT	train batch: 6	0	3	5			SMD		
+675	258	612	J1721+4726	17 21 52.24	+47 26 36.8	NAT	train batch: 3	0	1	5		sig	SMD		
+676	259	613	J1725+4949	17 25 52.31	+49 49 11.7	NAT	train batch: 8	0	3	5			SMD		
+677	260	614	J1726+4530	17 26 13.09	+45 30 28.8	NAT	train batch: 8	0	3	5			SMD		
+678	261	615	J1728+4045	17 28 02.55	+40 45 47.1	NAT	train batch: 6	0	3	5			SMD		
+679	262	616	J1729+5415	17 29 21.19	+54 15 26.1	NAT	train batch: 2	0	3	5			SMD		
+680	264	617	J1733+4229	17 33 43.25	+42 29 12.1	NAT	test batch	0	3	5			SMD	g	g
+681	265	618	J2058+0930	20 58 45.62	+09 30 09.9	NAT	train batch: 1	0	3	5			SMD		
+682	266	619	J2102-0145	21 02 14.61	-01 45 09.5	NAT	test batch	0	3	5			SMD	g	g
+683	267	620	J2126-0710	21 26 16.07	-07 10 46.4	NAT	train batch: 5	0	3	5			SMD		
+684	268	621	J2137-0134	21 37 26.40	-01 34 14.7	NAT	train batch: 3	0	3	5			SMD		
+685	269	622	J2139-0742	21 39 26.27	-07 42 23.4	NAT	train batch: 4	0	3	5			SMD		
+686	270	623	J2152+0907	21 52 50.62	+09 07 59.7	NAT	train batch: 7	0	3	5			SMD		
+687	271	624	J2154+0037	21 54 22.62	+00 37 10.8	NAT	train batch: 3	0	3	5			SMD		
+688	272	625	J2155+0846	21 55 26.18	+08 46 48.5	NAT	train batch: 3	0	3	5			SMD		
+689	273	626	J2155+1231	21 55 41.97	+12 31 28.6	NAT	train batch: 2	0	3	5			SMD		
+690	274	627	J2159-0542	21 59 34.35	-05 42 54.3	NAT	train batch: 4	0	3	5			SMD		
+691	275	628	J2222+1435	22 22 35.28	+14 35 35.4	NAT	train batch: 5	0	3	5			SMD		
+692	276	629	J2224+0126	22 24 21.97	+01 26 31.3	NAT	train batch: 8	0	3	5			SMD		
+693	277	630	J2234+0552	22 34 24.76	+05 52 42.5	NAT	train batch: 5	0	3	5			SMD		
+694	279	631	J2239-0932	22 39 02.43	-09 32 35.6	NAT	test batch	0	3	5			SMD	g	g
+695	278	632	J2239-0322	22 39 36.63	-03 22 38.1	NAT	train batch: 8	1	1.6	5		bad; sig	SMD		
+696	280	633	J2300+1426	23 00 46.83	+14 26 02.8	NAT	train batch: 6	0	3	5			SMD		
+697	281	634	J2304-0952	23 04 29.26	-09 52 04.8	NAT	train batch: 5	0	3	5			SMD		
+698	283	635	J2310+1441	23 10 15.98	+14 41 22.3	NAT	train batch: 6	0	3	5			SMD		
+699	282		J2310-0326	23 10 22.50	-03 26 58.8	NAT		0	3	5		wat	confusing		
+700	285	636	J2332+1016	23 32 36.03	+10 16 27.8	NAT	train batch: 5	0	3	5		bad	SMD		
+701	286	637	J2346-0154	23 46 54.00	-01 54 09.4	NAT	train batch: 6	0	3	5			SMD		
+702	287	638	J2348+1157	23 48 02.21	+11 57 22.9	NAT	train batch: 5	0	3	5			SMD		
