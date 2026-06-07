@@ -2,8 +2,6 @@
 
 """Steerable Group CNN for Image Classification."""
 
-__author__ = "Mir Sazzat Hossain"
-
 import torch
 import torch.nn as nn
 from e2cnn import gspaces
@@ -13,29 +11,15 @@ from e2cnn import nn as e2nn
 class DSteerableLeNet(nn.Module):
     """Steerable CNN for image classification."""
 
-    def __init__(
-        self,
-        imsize: int = 151,
-        kernel_size: int = 5,
-        N: int = 16
-    ) -> None:
-        """
-        Initialize the network.
-
-        :param imsize: size of the input image
-        :type imsize: int
-        :param kernel_size: size of the convolutional kernel
-        :type kernel_size: int
-        :param N: number of rotations
-        :type N: int
-        """
-        super(DSteerableLeNet, self).__init__()
+    def __init__(self, imsize: int = 151, kernel_size: int = 5, N: int = 16) -> None:
+        super().__init__()
         self.imsize = imsize
         self.kernel_size = kernel_size
         self.N = N
 
         z = 0.5 * (self.imsize - 2)
         z = int(0.5 * (z - 2))
+        self._z = z
 
         self.r2_act = gspaces.FlipRot2dOnR2(self.N)
 
@@ -49,7 +33,7 @@ class DSteerableLeNet(nn.Module):
             out_type,
             kernel_size=self.kernel_size,
             padding=1,
-            bias=False
+            bias=False,
         )
         self.relu1 = e2nn.ReLU(out_type, inplace=True)
         self.pool1 = e2nn.PointwiseMaxPoolAntialiased(out_type, kernel_size=2)
@@ -62,7 +46,7 @@ class DSteerableLeNet(nn.Module):
             out_type,
             kernel_size=self.kernel_size,
             padding=1,
-            bias=False
+            bias=False,
         )
         self.relu2 = e2nn.ReLU(out_type, inplace=True)
         self.pool2 = e2nn.PointwiseMaxPoolAntialiased(out_type, kernel_size=2)
@@ -72,27 +56,13 @@ class DSteerableLeNet(nn.Module):
 
         self.fc = nn.Linear(16 * z * z, 2048)
 
-        # dummy parameter for tracking device
         self.dummy = nn.Parameter(torch.empty(0))
 
-    #     self.gradients = None
+    @property
+    def feature_dim(self) -> int:
+        return 16 * self._z * self._z
 
-    # def activations_hook(self, grad: torch.Tensor) -> None:
-    #     """
-    #     Track the gradient of the network.
-
-    #     :param grad: gradient tensor
-    #     :type grad: torch.Tensor
-    #     """
-    #     self.gradients = grad
-
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        """
-        Forward pass of the network.
-
-        :param x: input tensor
-        :type x: torch.Tensor
-        """
+    def forward_features(self, x: torch.Tensor) -> torch.Tensor:
         x = e2nn.GeometricTensor(x, self.input_type)
 
         x = self.conv1(x)
@@ -102,7 +72,23 @@ class DSteerableLeNet(nn.Module):
 
         x = self.conv2(x)
         x = self.relu2(x)
-        # _ = x.tensor.register_hook(self.activations_hook)
+        x = self.pool2(x)
+        x = self.drop2(x)
+
+        x = self.gpool(x)
+        x = x.tensor
+        return x.view(x.size()[0], -1)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        x = e2nn.GeometricTensor(x, self.input_type)
+
+        x = self.conv1(x)
+        x = self.relu1(x)
+        x = self.pool1(x)
+        x = self.drop1(x)
+
+        x = self.conv2(x)
+        x = self.relu2(x)
         x = self.pool2(x)
         x = self.drop2(x)
 
@@ -114,34 +100,3 @@ class DSteerableLeNet(nn.Module):
 
         return x
 
-    # def get_activations_gradient(self) -> torch.Tensor:
-    #     """
-    #     Get the gradient of the network.
-
-    #     :return: gradient tensor
-    #     :rtype: torch.Tensor
-    #     """
-    #     return self.gradients
-
-    # def get_activations(self, x: torch.Tensor) -> torch.Tensor:
-    #     """
-    #     Get the activations of the network.
-
-    #     :param x: input tensor
-    #     :type x: torch.Tensor
-    #     :return: activations tensor
-    #     :rtype: torch.Tensor
-    #     """
-    #     x = e2nn.GeometricTensor(x, self.input_type)
-
-    #     x = self.conv1(x)
-    #     x = self.relu1(x)
-    #     x = self.pool1(x)
-    #     x = self.drop1(x)
-
-    #     x = self.conv2(x)
-    #     x = self.relu2(x)
-
-    #     x = x.tensor
-
-    #     return x

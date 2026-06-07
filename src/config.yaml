@@ -1,0 +1,54 @@
+data_params:
+  data_path: ./20k_images/rgz20k_png_raw/
+exp_params:
+  N: 16
+  batch_size: 16
+  device: cuda
+  lr: 0.0003
+  moving_average_decay: 0.99
+  num_epochs: 500
+  num_workers: 16
+  proj_hidden_size: 4096
+  projection_size: 256
+logging_params:
+  results_dir: ./results/
+  wandb:
+    enabled: true
+    project: "rgc-byol"
+    entity: null
+    name: null
+    tags: ["byol", "pretrain"]
+    log_every_steps: 50
+    log_checkpoints: false
+model_params:
+  image_size: 151
+  kernel_size: 5
+
+finetune:
+  learning_rate: 8.535012016081368e-04
+  weight_decay: 2.127070176843765e-05
+  batch_size: 8
+  num_workers: 4
+  max_epochs: 500
+  freeze_encoder: false
+  image_size: 151
+
+  # paths (relative paths resolve from current working dir / RGC_PROJECT_ROOT)
+  data_dir: "./datasets/mian_dataset/no_spurious_masked_png"
+  byol_checkpoint: "./results/models/byol_without_masking/run_0/best.pt"
+  experiment_root: "./finetune_runs/no_mask_byol+mask_data"
+
+  test_size: 0.2
+  split_seed: 42
+  k_fold: 5
+
+  # trainer
+  accelerator: "gpu"
+  devices: 1
+  precision: "32-true"
+  log_every_n_steps: 1
+
+  # wandb: wandb_entity = real username/team at wandb.ai, or null for default; '/' in wandb_project is folded to '-'
+  wandb_entity: null
+  wandb_project: "byol-experiment-no_mask_byol+mask_data"
+  model_slug: "byol_downstream_no_mask_byol+mask_data"
