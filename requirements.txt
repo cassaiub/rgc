@@ -1,0 +1,12 @@
+torch
+torchvision
+pytorch-lightning
+albumentations
+astropy
+tqdm
+e2cnn
+accelerate
+beartype
+pyyaml
+wandb
+
