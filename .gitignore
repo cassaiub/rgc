@@ -7,3 +7,24 @@ dist
 __pycache__/
 *.egg-info/
 *.egg
+
+# --- image cutouts: huge, kept local only (point scripts at it with RGC_DATA) ---
+Data/
+*.fits
+*.jpeg
+*.jpg
+
+# --- inspection / plot outputs (regenerate with scripts/plot_*.py) ---
+*.pdf
+
+# --- bulky catalog products: regenerate with scripts/match_*.py ---
+catalogs/master_radio_catalog_awise_match.csv
+catalogs/master_radio_catalog_desi_match.csv
+
+# --- bulky RGZ DR1 supplemental tables (download from the publisher) ---
+catalogs/rgz_dr1/DR1_FIRST_radio_classifications.csv
+catalogs/rgz_dr1/DR1_FIRST_radio_classifications_dedup.csv
+catalogs/rgz_dr1/DR1_FIRST_radio_classifications_dedup_unique.csv
+catalogs/rgz_dr1/DR1_FIRST_radio_classifications_unique.csv
+catalogs/rgz_dr1/DR1_FIRST_radio_classifications_duplicates.csv
+catalogs/rgz_dr1/DR1_FIRST_host_properties.csv
