@@ -1,8 +1,15 @@
 import os
+import sys
 import argparse
 from pathlib import Path
 
 import yaml
+
+# This script lives in src/scripts/; put src/ on the path so `models`/`utils` import
+# regardless of the working directory it is launched from.
+SRC_ROOT = Path(__file__).resolve().parents[1]
+if str(SRC_ROOT) not in sys.path:
+    sys.path.insert(0, str(SRC_ROOT))
 
 from models.byol_trainer import BYOLTrainer
 

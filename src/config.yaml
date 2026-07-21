@@ -35,7 +35,7 @@ finetune:
 
   # paths (relative paths resolve from current working dir / RGC_PROJECT_ROOT)
   data_dir: "./datasets/mian_dataset/no_spurious_masked_png"
-  byol_checkpoint: "./results/models/byol_without_masking/run_0/best.pt"
+  byol_checkpoint: "./results/models/byol/run_0/best.pt"
   experiment_root: "./finetune_runs/no_mask_byol+mask_data"
 
   test_size: 0.2

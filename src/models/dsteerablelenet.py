@@ -7,6 +7,9 @@ import torch.nn as nn
 from e2cnn import gspaces
 from e2cnn import nn as e2nn
 
+# Make e2cnn work on NumPy >= 1.24 / 2.x (restores tostring hashing + copy=False).
+from . import _e2cnn_compat  # noqa: F401
+
 
 class DSteerableLeNet(nn.Module):
     """Steerable CNN for image classification."""

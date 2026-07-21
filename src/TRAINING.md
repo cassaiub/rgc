@@ -10,8 +10,8 @@ For project background, see the main [README.md](../README.md).
 
 Training is a two-stage pipeline:
 
-1. **Pretrain** — BYOL self-supervised learning on unlabeled radio images (`byol_pretrain.py`)
-2. **Fine-tune** — Supervised classification with a head on top of the pretrained encoder (`models/downstream_trainer.py`)
+1. **Pretrain** — BYOL self-supervised learning on unlabeled radio images (`scripts/byol_pretrain.py`)
+2. **Fine-tune** — Supervised classification with a head on top of the pretrained encoder (`scripts/downstream_trainer.py`)
 
 Both stages share a single config file: `config.yaml` (in this directory).
 
@@ -105,8 +105,8 @@ Class folder names become label names in metrics and W&B reports.
 
 To build PNGs from FITS sources, use the preprocessing notebooks:
 
-- `pre_processing/process_single_file.ipynb` — one source file
-- `pre_processing/process_bulk.ipynb` — batch processing
+- `preprocessing/process_single_file.ipynb` — one source file
+- `preprocessing/process_bulk.ipynb` — batch processing
 
 Catalog references live in `catalogs/` (e.g. `first-2060.csv` with columns `idx`, `radioname`, `ra`, `dec`, `Label`).
 
@@ -160,24 +160,24 @@ One file controls both stages.
 
 ### Run
 
-Run from this directory (`src/`):
+Run from `src/` (the script puts `src/` on `sys.path`, so `models`/`utils` import correctly):
 
 ```bash
 cd src
-python byol_pretrain.py --config config.yaml
+python scripts/byol_pretrain.py --config config.yaml
 ```
 
 With a custom project root:
 
 ```bash
 cd src
-RGC_PROJECT_ROOT=/path/to/project python byol_pretrain.py --config config.yaml
+RGC_PROJECT_ROOT=/path/to/project python scripts/byol_pretrain.py --config config.yaml
 ```
 
 Custom config path:
 
 ```bash
-python byol_pretrain.py --config /path/to/my_pretrain_config.yaml
+python scripts/byol_pretrain.py --config /path/to/my_pretrain_config.yaml
 ```
 
 ### What it does
@@ -218,11 +218,11 @@ logging_params:
 
 ### Run
 
-From this directory (`src/`):
+From `src/`:
 
 ```bash
 cd src
-python models/downstream_trainer.py --config config.yaml
+python scripts/downstream_trainer.py --config config.yaml
 ```
 
 Ensure `finetune.byol_checkpoint` in config points to your pretrain `best.pt`. If the file is missing, training continues from a randomly initialized encoder (a warning is printed).
@@ -269,23 +269,23 @@ wandb login
 
 # 3. Pretrain
 cd src
-python byol_pretrain.py --config config.yaml
-# Note the run directory, e.g. ../results/models/byol/run_0/best.pt
+python scripts/byol_pretrain.py --config config.yaml
+# Note the run directory, e.g. ./results/models/byol/run_0/best.pt
 
 # 4. Update config.yaml:
 #    finetune:
 #      byol_checkpoint: "./results/models/byol/run_0/best.pt"
 
 # 5. Fine-tune
-python models/downstream_trainer.py --config config.yaml
+python scripts/downstream_trainer.py --config config.yaml
 ```
 
 ---
 
 ## 7. Inference after training
 
-- **Single image:** `notebooks/classify_an_image.ipynb`
-- **Grad-CAM:** `notebooks/GRAD_CAM_pt_1.ipynb`
+- **Single image:** `notebooks/inference_single_image.ipynb`
+- **Grad-CAM / attention:** `notebooks/gradcam_byol.ipynb`, `notebooks/gradcam_supervised.ipynb`, `notebooks/gradcam_attention_metrics.ipynb`
 
 Load the encoder from a BYOL checkpoint or a full Lightning checkpoint from the finetune run.
 
@@ -298,7 +298,7 @@ Load the encoder from a BYOL checkpoint or a full Lightning checkpoint from the 
 | `No images found under data_path=...` | Check `data_params.data_path`; images must match supported extensions |
 | `finetune.data_dir does not exist` | Create the ImageFolder layout or fix the path in config |
 | `WARNING: BYOL checkpoint not found` | Set `finetune.byol_checkpoint` to the correct `best.pt` path |
-| Import errors (`models` not found) | Run scripts from `src/`, not the repo root |
+| Import errors (`models` not found) | Run the entry points from `src/` (`python scripts/...`); they add `src/` to `sys.path`, but the config's relative paths resolve from there |
 | W&B 404 / project errors | Set `wandb_entity` to your W&B username/team, or `null` for default; `/` in project names is converted to `-` |
 | CUDA OOM | Lower `batch_size` in `exp_params` or `finetune` |
 | Slow dataloading | Adjust `num_workers`; ensure images are on local/fast storage |
@@ -319,10 +319,11 @@ Tune these in `config.yaml` for your hardware and dataset size.
 
 | File | Role |
 |------|------|
-| `byol_pretrain.py` | Pretrain entry point |
+| `scripts/byol_pretrain.py` | Pretrain entry point |
+| `scripts/downstream_trainer.py` | Fine-tune entry point (runner) |
 | `models/byol_trainer.py` | BYOL training loop |
-| `models/downstream_trainer.py` | Fine-tune entry point |
-| `models/dstreeablelenet.py` | Steerable CNN encoder |
+| `models/downstream_trainer.py` | `BYOLDownstreamClassifier` (LightningModule) |
+| `models/dsteerablelenet.py` | Steerable CNN encoder |
 | `utils/unlabeled_dataset.py` | Unlabeled image dataset |
 | `utils/dataloader.py` | Labeled `GalaxyDataset` data module |
 | `config.yaml` | Shared configuration |

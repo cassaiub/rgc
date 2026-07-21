@@ -5,9 +5,14 @@ RGC uses convolutional neural networks to classify radio galaxies (galaxies that
 
 ## Repository layout
 
-- `src/`, `notebooks/`, `pre_processing/`, `examples/` — the deep-learning classifier (training, evaluation, inference).
-- `scripts/` — the **catalog pipeline**: cross-matching, de-duplication, multiwavelength matching (AllWISE, DESI Legacy) and cutout downloaders. See [`scripts/README.md`](scripts/README.md).
-- `catalogs/` — radio-galaxy catalogs and key data products (`raw/` holds source catalogs as published; `rgz_dr1/` holds Radio Galaxy Zoo DR1 tables).
-- `docs/` — column dictionaries, matching notes and the dedup/consistency reports.
+- `src/` — model code and the two training entry points (`src/scripts/`), the shared `config.yaml`, and the training guide [`src/TRAINING.md`](src/TRAINING.md).
+- `notebooks/` — evaluation (ROC / AUC / ECE), Grad-CAM / attention visualisation, and single-image inference.
+- `preprocessing/` — notebooks that turn FITS sources into the PNG cutouts used for training.
+- `examples/` — a standalone example (`5foldoptuna_byol_finetuning_example.py`) showing Optuna 5-fold BYOL fine-tuning.
+- `catalogs/` — radio-galaxy catalogs used for labels (`first-2060.csv`, `sasmal_ml_catalog.tsv`).
 
-Image cutouts (~100 GB) are **not** stored in git; point the scripts at your local copy with the `RGC_DATA` environment variable.
+Image cutouts are large and are **not** stored in git. Point training at your local copy via `config.yaml`
+(`data_params.data_path` for pretraining, `finetune.data_dir` for fine-tuning). Cache and output roots default to
+the working directory, or to `RGC_PROJECT_ROOT` if it is set.
+
+See [`src/TRAINING.md`](src/TRAINING.md) for the full pretrain → fine-tune workflow.

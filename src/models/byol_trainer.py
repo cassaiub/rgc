@@ -10,7 +10,7 @@ from torchvision import transforms
 from tqdm import tqdm
 
 from models.byol_pytorch import BYOL
-from models.dstreeablelenet import DSteerableLeNet
+from models.dsteerablelenet import DSteerableLeNet
 from utils.unlabeled_dataset import UnlabeledDataset
 
 try:

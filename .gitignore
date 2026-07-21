@@ -1,30 +1,33 @@
+# --- python build / packaging ---
 build
 dist
-/rgc/VERSION
-/rgc/__pycache__/
-/venv
-/.venv
 __pycache__/
 *.egg-info/
 *.egg
 
-# --- image cutouts: huge, kept local only (point scripts at it with RGC_DATA) ---
+# --- virtual environments ---
+/venv
+/.venv
+/.rgc
+
+# --- image cutouts: large, kept local only (set the path in src/config.yaml) ---
 Data/
 *.fits
 *.jpeg
 *.jpg
 
-# --- inspection / plot outputs (regenerate with scripts/plot_*.py) ---
+# --- model weights & local datasets: large, distribute outside git ---
+checkpoints/
+*.pt
+*.ckpt
+*.pth
+
+# --- training / experiment outputs ---
+results/
+finetune_runs/
+byol_pretrain/
+wandb_runs/
+.torch/
+
+# --- misc generated outputs ---
 *.pdf
-
-# --- bulky catalog products: regenerate with scripts/match_*.py ---
-catalogs/master_radio_catalog_awise_match.csv
-catalogs/master_radio_catalog_desi_match.csv
-
-# --- bulky RGZ DR1 supplemental tables (download from the publisher) ---
-catalogs/rgz_dr1/DR1_FIRST_radio_classifications.csv
-catalogs/rgz_dr1/DR1_FIRST_radio_classifications_dedup.csv
-catalogs/rgz_dr1/DR1_FIRST_radio_classifications_dedup_unique.csv
-catalogs/rgz_dr1/DR1_FIRST_radio_classifications_unique.csv
-catalogs/rgz_dr1/DR1_FIRST_radio_classifications_duplicates.csv
-catalogs/rgz_dr1/DR1_FIRST_host_properties.csv
