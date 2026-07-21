@@ -285,7 +285,7 @@ python scripts/downstream_trainer.py --config config.yaml
 ## 7. Inference after training
 
 - **Single image:** `notebooks/inference_single_image.ipynb`
-- **Grad-CAM / attention:** `notebooks/gradcam_byol.ipynb`, `notebooks/gradcam_supervised.ipynb`, `notebooks/gradcam_attention_metrics.ipynb`
+- **Grad-CAM / attention:** `notebooks/gradcam_maps_byol.ipynb`, `notebooks/gradcam_maps_supervised.ipynb`, `notebooks/fig6_figD2_gradcam_metrics.ipynb`
 
 Load the encoder from a BYOL checkpoint or a full Lightning checkpoint from the finetune run.
 

@@ -21,7 +21,8 @@ checkpoints/
 *.pt
 *.ckpt
 *.pth
-
+plot_data/
+papers/
 # --- training / experiment outputs ---
 results/
 finetune_runs/

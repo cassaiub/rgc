@@ -1,0 +1,63 @@
+J/A+A/VVV/AXX      RGC FIRST-2060 radio AGN catalogue         (Hossain+, 2026)
+================================================================================
+RGC: a radio AGN classifier based on deep learning
+    Hossain M.S., Shahal M.S.H., Asad K.M.B., Saikia P., Khan A., Akter F.,
+    Ali A.A., Amin M.A., Guha D.P., Jihad M.O.B., Momen A., Sen S.,
+    Rahman A.K.M.M.
+    <Astron. Astrophys. VVV, AXX (2026)>
+    =20XX A&A ...............
+================================================================================
+ADC_Keywords: Active gal. nuclei ; Radio sources ; Morphology
+Keywords: Galaxies: active - Radio continuum: galaxies -
+          Techniques: image processing - Methods: data analysis -
+          Methods: statistical
+
+Abstract:
+    FIRST-2060 is a four-class labelled dataset of 2060 radio-loud active
+    galactic nuclei (RAGNs) built from three publicly available catalogues
+    through multi-tier visual inspection. Each source is labelled as a
+    straight Fanaroff-Riley type I (sfri) or type II (sfrii), a wide-angle
+    tail (wat), or a narrow-angle tail (nat). All sources are drawn from the
+    VLA FIRST survey.
+
+Description:
+    This table (Table B.1 in the paper) lists all 2060 sources of the
+    FIRST-2060 catalogue with their FIRST radio designation, J2000 equatorial
+    coordinates and morphological class. The prefix letter of the identifier
+    indicates the source catalogue of origin: 'S' for Sasmal et al., 'L' for
+    Lao et al., and 'M' for MiraBest. The coordinates (J2000) are those
+    encoded in the FIRST radio designation.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName        Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe              80        .   This file
+first2060.dat       57     2060   The FIRST-2060 catalogue
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: first2060.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5     ---     ID        Source identifier (prefix + number)
+   7- 26  A20    ---     FIRST     FIRST radio source designation (1)
+  28- 29  I2     h       RAh       Right ascension (J2000)
+  31- 32  I2     min     RAm       Right ascension (J2000)
+  34- 38  F5.2   s       RAs       Right ascension (J2000)
+      40  A1     ---     DE-       Declination sign (J2000)
+  41- 42  I2     deg     DEd       Declination (J2000)
+  44- 45  I2     arcmin  DEm       Declination (J2000)
+  47- 51  F5.2   arcsec  DEs       Declination (J2000)
+  53- 57  A5     ---     Label     Morphological class (2)
+--------------------------------------------------------------------------------
+
+Note (1): FIRST designation in the form JHHMMSS.ss+DDMMSS.s.
+Note (2): One of sfri (straight FRI), sfrii (straight FRII), wat (wide-angle
+     tail), or nat (narrow-angle tail).
+
+Acknowledgements:
+    Sazzat Hossain, sazzat(at)iub.edu.bd ;
+    MD Shahadat Hossain Shahal, shahadatw6(at)gmail.com ;
+    K. M. B. Asad, kasad(at)iub.edu.bd
+================================================================================
